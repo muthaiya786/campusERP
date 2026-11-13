@@ -1,0 +1,6 @@
+{
+  "name": "Vanguard College ERP — Department Edition",
+  "description": "Integrated role-based College ERP platform with Student, Faculty, HOD, and Admin portals, live RBAC enforcement, and BI analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

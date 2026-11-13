@@ -1,0 +1,5116 @@
+{
+  "schemaVersion": 3,
+  "institution": {
+    "id": "inst-vit-01",
+    "name": "Vanguard Institute of Technology",
+    "shortCode": "VIT-ERP",
+    "address": "42 Knowledge Corridor, Saravanampatti, Coimbatore 641035",
+    "email": "registrar@vanguardtech.edu.in",
+    "phone": "+91 422 266 8400",
+    "accreditationNote": "Autonomous Institution · NAAC & NBA Documentation Portal",
+    "attendanceThresholdPct": 75,
+    "passMarkPct": 50,
+    "activeAcademicYearId": "ay-2026-27",
+    "dateFormat": "DD MMM YYYY",
+    "timezone": "Asia/Kolkata",
+    "gradingScale": [
+      {
+        "grade": "O",
+        "minPct": 91,
+        "maxPct": 100,
+        "points": 10
+      },
+      {
+        "grade": "A+",
+        "minPct": 81,
+        "maxPct": 90,
+        "points": 9
+      },
+      {
+        "grade": "A",
+        "minPct": 71,
+        "maxPct": 80,
+        "points": 8
+      },
+      {
+        "grade": "B+",
+        "minPct": 61,
+        "maxPct": 70,
+        "points": 7
+      },
+      {
+        "grade": "B",
+        "minPct": 50,
+        "maxPct": 60,
+        "points": 6
+      },
+      {
+        "grade": "RA",
+        "minPct": 0,
+        "maxPct": 49,
+        "points": 0
+      }
+    ]
+  },
+  "departments": [
+    {
+      "id": "dept-cse",
+      "institutionId": "inst-vit-01",
+      "code": "CSE",
+      "name": "Computer Science & Engineering",
+      "hodStaffId": "staff-01",
+      "email": "hod.cse@vanguardtech.edu.in",
+      "vision": "To cultivate globally competent computing engineers grounded in systems rigor, ethical AI, and research innovation.",
+      "mission": "Deliver outcome-based technical education, industry-embedded laboratories, and structured mentorship.",
+      "active": true,
+      "createdAt": "2023-06-01T09:00:00Z"
+    },
+    {
+      "id": "dept-ece",
+      "institutionId": "inst-vit-01",
+      "code": "ECE",
+      "name": "Electronics & Communication Engineering",
+      "hodStaffId": "staff-ece-01",
+      "email": "hod.ece@vanguardtech.edu.in",
+      "vision": "To advance semiconductor, VLSI, embedded intelligence, and next-generation communication engineering.",
+      "mission": "Bridge signal processing theory with silicon design labs, IoT prototyping, and industry research.",
+      "active": true,
+      "createdAt": "2023-06-01T09:00:00Z"
+    }
+  ],
+  "programmes": [
+    {
+      "id": "prog-be-cse",
+      "departmentId": "dept-cse",
+      "code": "BE-CSE",
+      "name": "B.E. Computer Science & Engineering",
+      "category": "UG",
+      "durationYears": 4,
+      "totalSemesters": 8,
+      "intakeCapacity": 120,
+      "regulationId": "reg-2023",
+      "active": true
+    },
+    {
+      "id": "prog-me-cse",
+      "departmentId": "dept-cse",
+      "code": "ME-CSE",
+      "name": "M.E. Computer Science & Engineering",
+      "category": "PG",
+      "durationYears": 2,
+      "totalSemesters": 4,
+      "intakeCapacity": 24,
+      "regulationId": "reg-2025",
+      "active": true
+    },
+    {
+      "id": "prog-be-ece",
+      "departmentId": "dept-ece",
+      "code": "BE-ECE",
+      "name": "B.E. Electronics & Communication Engineering",
+      "category": "UG",
+      "durationYears": 4,
+      "totalSemesters": 8,
+      "intakeCapacity": 120,
+      "regulationId": "reg-2023",
+      "active": true
+    }
+  ],
+  "regulations": [
+    {
+      "id": "reg-2023",
+      "institutionId": "inst-vit-01",
+      "code": "R-2023",
+      "name": "Regulation 2023 (Outcome-Based CBCS)",
+      "effectiveFromYear": "2023-24",
+      "minAttendancePct": 75,
+      "internalWeightagePct": 40,
+      "externalWeightagePct": 60,
+      "active": true
+    },
+    {
+      "id": "reg-2025",
+      "institutionId": "inst-vit-01",
+      "code": "R-2025",
+      "name": "Regulation 2025 (Autonomous Honors)",
+      "effectiveFromYear": "2025-26",
+      "minAttendancePct": 75,
+      "internalWeightagePct": 50,
+      "externalWeightagePct": 50,
+      "active": true
+    }
+  ],
+  "academicYears": [
+    {
+      "id": "ay-2025-26",
+      "institutionId": "inst-vit-01",
+      "label": "2025-26",
+      "startDate": "2025-07-01",
+      "endDate": "2026-05-15",
+      "isCurrent": false
+    },
+    {
+      "id": "ay-2026-27",
+      "institutionId": "inst-vit-01",
+      "label": "2026-27",
+      "startDate": "2026-07-01",
+      "endDate": "2027-05-15",
+      "isCurrent": true
+    }
+  ],
+  "batches": [
+    {
+      "id": "batch-2026",
+      "programmeId": "prog-be-cse",
+      "departmentId": "dept-cse",
+      "label": "2026–2030",
+      "regulationId": "reg-2025",
+      "currentSemester": 1,
+      "active": true
+    },
+    {
+      "id": "batch-2025",
+      "programmeId": "prog-be-cse",
+      "departmentId": "dept-cse",
+      "label": "2025–2029",
+      "regulationId": "reg-2025",
+      "currentSemester": 3,
+      "active": true
+    },
+    {
+      "id": "batch-2024",
+      "programmeId": "prog-be-cse",
+      "departmentId": "dept-cse",
+      "label": "2024–2028",
+      "regulationId": "reg-2023",
+      "currentSemester": 5,
+      "active": true
+    },
+    {
+      "id": "batch-2023",
+      "programmeId": "prog-be-cse",
+      "departmentId": "dept-cse",
+      "label": "2023–2027",
+      "regulationId": "reg-2023",
+      "currentSemester": 7,
+      "active": true
+    },
+    {
+      "id": "batch-ece-2026",
+      "programmeId": "prog-be-ece",
+      "departmentId": "dept-ece",
+      "label": "2026–2030",
+      "regulationId": "reg-2025",
+      "currentSemester": 1,
+      "active": true
+    },
+    {
+      "id": "batch-ece-2025",
+      "programmeId": "prog-be-ece",
+      "departmentId": "dept-ece",
+      "label": "2025–2029",
+      "regulationId": "reg-2025",
+      "currentSemester": 3,
+      "active": true
+    },
+    {
+      "id": "batch-ece-2024",
+      "programmeId": "prog-be-ece",
+      "departmentId": "dept-ece",
+      "label": "2024–2028",
+      "regulationId": "reg-2023",
+      "currentSemester": 5,
+      "active": true
+    },
+    {
+      "id": "batch-ece-2023",
+      "programmeId": "prog-be-ece",
+      "departmentId": "dept-ece",
+      "label": "2023–2027",
+      "regulationId": "reg-2023",
+      "currentSemester": 7,
+      "active": true
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-1a",
+      "batchId": "batch-2026",
+      "departmentId": "dept-cse",
+      "name": "I Sem - Sec A",
+      "semester": 1,
+      "advisorStaffId": "staff-04",
+      "roomCode": "CS-101",
+      "strength": 3
+    },
+    {
+      "id": "sec-3a",
+      "batchId": "batch-2025",
+      "departmentId": "dept-cse",
+      "name": "III Sem - Sec A",
+      "semester": 3,
+      "advisorStaffId": "staff-04",
+      "roomCode": "CS-204",
+      "strength": 2
+    },
+    {
+      "id": "sec-5a",
+      "batchId": "batch-2024",
+      "departmentId": "dept-cse",
+      "name": "V Sem - Sec A",
+      "semester": 5,
+      "advisorStaffId": "staff-02",
+      "roomCode": "CS-301",
+      "strength": 6
+    },
+    {
+      "id": "sec-5b",
+      "batchId": "batch-2024",
+      "departmentId": "dept-cse",
+      "name": "V Sem - Sec B",
+      "semester": 5,
+      "advisorStaffId": "staff-03",
+      "roomCode": "CS-302",
+      "strength": 4
+    },
+    {
+      "id": "sec-7a",
+      "batchId": "batch-2023",
+      "departmentId": "dept-cse",
+      "name": "VII Sem - Sec A",
+      "semester": 7,
+      "advisorStaffId": "staff-05",
+      "roomCode": "CS-401",
+      "strength": 2
+    },
+    {
+      "id": "sec-ece-1a",
+      "batchId": "batch-ece-2026",
+      "departmentId": "dept-ece",
+      "name": "ECE I Sem - Sec A",
+      "semester": 1,
+      "advisorStaffId": "staff-ece-02",
+      "roomCode": "EC-101",
+      "strength": 2
+    },
+    {
+      "id": "sec-ece-3a",
+      "batchId": "batch-ece-2025",
+      "departmentId": "dept-ece",
+      "name": "ECE III Sem - Sec A",
+      "semester": 3,
+      "advisorStaffId": "staff-ece-02",
+      "roomCode": "EC-201",
+      "strength": 2
+    },
+    {
+      "id": "sec-ece-5a",
+      "batchId": "batch-ece-2024",
+      "departmentId": "dept-ece",
+      "name": "ECE V Sem - Sec A",
+      "semester": 5,
+      "advisorStaffId": "staff-ece-02",
+      "roomCode": "EC-301",
+      "strength": 2
+    },
+    {
+      "id": "sec-ece-7a",
+      "batchId": "batch-ece-2023",
+      "departmentId": "dept-ece",
+      "name": "ECE VII Sem - Sec A",
+      "semester": 7,
+      "advisorStaffId": "staff-ece-01",
+      "roomCode": "EC-401",
+      "strength": 2
+    }
+  ],
+  "roles": [
+    {
+      "code": "SUPER_ADMIN",
+      "name": "Super Admin",
+      "description": "System-wide configuration & security",
+      "scopeLevel": "INSTITUTION"
+    },
+    {
+      "code": "COLLEGE_ADMIN",
+      "name": "College Admin",
+      "description": "Institution setup, departments, academic policy",
+      "scopeLevel": "INSTITUTION"
+    },
+    {
+      "code": "PRINCIPAL",
+      "name": "Principal",
+      "description": "Institution-wide oversight & approvals",
+      "scopeLevel": "INSTITUTION"
+    },
+    {
+      "code": "HOD",
+      "name": "Head of Department (HOD)",
+      "description": "Full operational management of assigned department",
+      "scopeLevel": "DEPARTMENT"
+    },
+    {
+      "code": "ASSISTANT_HOD",
+      "name": "Assistant HOD / Coordinator",
+      "description": "Delegated department coordination",
+      "scopeLevel": "DEPARTMENT"
+    },
+    {
+      "code": "FACULTY",
+      "name": "Faculty / Teaching Staff",
+      "description": "Assigned classes, attendance, marks, mentoring",
+      "scopeLevel": "CLASS_SUBJECT"
+    },
+    {
+      "code": "CLASS_ADVISOR",
+      "name": "Class Advisor",
+      "description": "Assigned class student records & leave review",
+      "scopeLevel": "CLASS_SUBJECT"
+    },
+    {
+      "code": "EXAM_COORDINATOR",
+      "name": "Exam Coordinator",
+      "description": "Assessment schedules & result verification",
+      "scopeLevel": "DEPARTMENT"
+    },
+    {
+      "code": "PLACEMENT_COORDINATOR",
+      "name": "Placement Coordinator",
+      "description": "Campus drives, internships & career records",
+      "scopeLevel": "DEPARTMENT"
+    },
+    {
+      "code": "IQAC_COORDINATOR",
+      "name": "IQAC Coordinator",
+      "description": "Accreditation documentation & verification",
+      "scopeLevel": "DEPARTMENT"
+    },
+    {
+      "code": "LAB_INCHARGE",
+      "name": "Lab In-Charge",
+      "description": "Lab schedules, equipment & maintenance",
+      "scopeLevel": "DEPARTMENT"
+    },
+    {
+      "code": "NON_TEACHING_STAFF",
+      "name": "Non-Teaching Staff",
+      "description": "Department office tasks & lab assistance",
+      "scopeLevel": "CLASS_SUBJECT"
+    },
+    {
+      "code": "STUDENT",
+      "name": "Student",
+      "description": "Own profile, attendance, marks, assignments, fees",
+      "scopeLevel": "SELF"
+    }
+  ],
+  "rbacMatrix": {
+    "SUPER_ADMIN": {
+      "dashboard": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "students": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "staff": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "academics": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "timetable": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "attendance": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "assignments": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "assessments": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "requests": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "fees": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "documents": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "operations": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "bi_reports": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "rbac": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "settings": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "audit": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ]
+    },
+    "COLLEGE_ADMIN": {
+      "dashboard": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "students": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "staff": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "academics": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "timetable": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "attendance": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "assignments": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "assessments": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "requests": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "fees": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "documents": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "operations": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "bi_reports": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "rbac": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "settings": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ],
+      "audit": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "submit",
+        "approve",
+        "reject",
+        "publish",
+        "export",
+        "verify",
+        "assign"
+      ]
+    },
+    "PRINCIPAL": {
+      "dashboard": [
+        "view",
+        "export"
+      ],
+      "students": [
+        "view",
+        "export"
+      ],
+      "staff": [
+        "view",
+        "export"
+      ],
+      "academics": [
+        "view",
+        "approve"
+      ],
+      "timetable": [
+        "view"
+      ],
+      "attendance": [
+        "view",
+        "export"
+      ],
+      "assignments": [
+        "view"
+      ],
+      "assessments": [
+        "view",
+        "approve",
+        "publish",
+        "export"
+      ],
+      "requests": [
+        "view",
+        "approve",
+        "reject"
+      ],
+      "fees": [
+        "view",
+        "export"
+      ],
+      "documents": [
+        "view",
+        "verify",
+        "export"
+      ],
+      "operations": [
+        "view",
+        "approve",
+        "verify",
+        "export"
+      ],
+      "bi_reports": [
+        "view",
+        "export"
+      ],
+      "rbac": [
+        "view"
+      ],
+      "settings": [
+        "view"
+      ],
+      "audit": [
+        "view",
+        "export"
+      ]
+    },
+    "HOD": {
+      "dashboard": [
+        "view",
+        "export"
+      ],
+      "students": [
+        "view",
+        "create",
+        "edit",
+        "approve",
+        "export"
+      ],
+      "staff": [
+        "view",
+        "create",
+        "edit",
+        "assign",
+        "export"
+      ],
+      "academics": [
+        "view",
+        "create",
+        "edit",
+        "assign"
+      ],
+      "timetable": [
+        "view",
+        "create",
+        "edit",
+        "publish"
+      ],
+      "attendance": [
+        "view",
+        "approve",
+        "reject",
+        "export"
+      ],
+      "assignments": [
+        "view",
+        "export"
+      ],
+      "assessments": [
+        "view",
+        "verify",
+        "approve",
+        "publish",
+        "export"
+      ],
+      "requests": [
+        "view",
+        "approve",
+        "reject"
+      ],
+      "fees": [
+        "view",
+        "export"
+      ],
+      "documents": [
+        "view",
+        "create",
+        "edit",
+        "verify",
+        "approve",
+        "reject",
+        "export",
+        "delete"
+      ],
+      "operations": [
+        "view",
+        "create",
+        "edit",
+        "approve",
+        "verify",
+        "export"
+      ],
+      "bi_reports": [
+        "view",
+        "export"
+      ],
+      "settings": [
+        "view",
+        "edit"
+      ],
+      "audit": [
+        "view"
+      ]
+    },
+    "ASSISTANT_HOD": {
+      "dashboard": [
+        "view"
+      ],
+      "students": [
+        "view",
+        "edit"
+      ],
+      "staff": [
+        "view",
+        "assign"
+      ],
+      "academics": [
+        "view",
+        "edit"
+      ],
+      "timetable": [
+        "view",
+        "create",
+        "edit"
+      ],
+      "attendance": [
+        "view",
+        "approve",
+        "export"
+      ],
+      "assignments": [
+        "view"
+      ],
+      "assessments": [
+        "view",
+        "verify"
+      ],
+      "requests": [
+        "view",
+        "approve",
+        "reject"
+      ],
+      "documents": [
+        "view",
+        "create",
+        "verify",
+        "export"
+      ],
+      "operations": [
+        "view",
+        "create",
+        "edit",
+        "verify"
+      ],
+      "bi_reports": [
+        "view",
+        "export"
+      ]
+    },
+    "FACULTY": {
+      "dashboard": [
+        "view"
+      ],
+      "students": [
+        "view"
+      ],
+      "academics": [
+        "view",
+        "edit"
+      ],
+      "timetable": [
+        "view"
+      ],
+      "attendance": [
+        "view",
+        "create",
+        "submit",
+        "edit"
+      ],
+      "assignments": [
+        "view",
+        "create",
+        "edit",
+        "submit"
+      ],
+      "assessments": [
+        "view",
+        "create",
+        "edit",
+        "submit"
+      ],
+      "requests": [
+        "view",
+        "create",
+        "submit"
+      ],
+      "documents": [
+        "view",
+        "create",
+        "verify",
+        "export"
+      ],
+      "operations": [
+        "view",
+        "create",
+        "edit"
+      ],
+      "bi_reports": [
+        "view"
+      ]
+    },
+    "CLASS_ADVISOR": {
+      "dashboard": [
+        "view"
+      ],
+      "students": [
+        "view",
+        "edit"
+      ],
+      "timetable": [
+        "view"
+      ],
+      "attendance": [
+        "view",
+        "approve",
+        "export"
+      ],
+      "requests": [
+        "view",
+        "approve",
+        "reject"
+      ],
+      "documents": [
+        "view",
+        "create",
+        "verify",
+        "export"
+      ],
+      "bi_reports": [
+        "view"
+      ]
+    },
+    "EXAM_COORDINATOR": {
+      "dashboard": [
+        "view"
+      ],
+      "assessments": [
+        "view",
+        "verify",
+        "approve",
+        "publish",
+        "export"
+      ],
+      "documents": [
+        "view",
+        "verify"
+      ],
+      "bi_reports": [
+        "view",
+        "export"
+      ]
+    },
+    "PLACEMENT_COORDINATOR": {
+      "dashboard": [
+        "view"
+      ],
+      "students": [
+        "view"
+      ],
+      "documents": [
+        "view",
+        "export"
+      ],
+      "operations": [
+        "view",
+        "create",
+        "edit",
+        "approve",
+        "export"
+      ],
+      "bi_reports": [
+        "view",
+        "export"
+      ]
+    },
+    "IQAC_COORDINATOR": {
+      "dashboard": [
+        "view"
+      ],
+      "academics": [
+        "view"
+      ],
+      "documents": [
+        "view",
+        "verify",
+        "export"
+      ],
+      "operations": [
+        "view",
+        "create",
+        "edit",
+        "verify",
+        "export"
+      ],
+      "bi_reports": [
+        "view",
+        "export"
+      ]
+    },
+    "LAB_INCHARGE": {
+      "dashboard": [
+        "view"
+      ],
+      "timetable": [
+        "view"
+      ],
+      "documents": [
+        "view",
+        "create"
+      ],
+      "operations": [
+        "view",
+        "create",
+        "edit",
+        "verify"
+      ]
+    },
+    "NON_TEACHING_STAFF": {
+      "dashboard": [
+        "view"
+      ],
+      "students": [
+        "view"
+      ],
+      "documents": [
+        "view",
+        "create",
+        "verify"
+      ],
+      "operations": [
+        "view",
+        "create",
+        "edit"
+      ],
+      "requests": [
+        "view",
+        "create"
+      ]
+    },
+    "STUDENT": {
+      "dashboard": [
+        "view"
+      ],
+      "students": [
+        "view"
+      ],
+      "academics": [
+        "view"
+      ],
+      "timetable": [
+        "view"
+      ],
+      "attendance": [
+        "view",
+        "submit"
+      ],
+      "assignments": [
+        "view",
+        "submit"
+      ],
+      "assessments": [
+        "view"
+      ],
+      "requests": [
+        "view",
+        "create",
+        "submit"
+      ],
+      "fees": [
+        "view",
+        "submit"
+      ],
+      "documents": [
+        "view",
+        "create",
+        "submit"
+      ],
+      "operations": [
+        "view",
+        "create",
+        "submit"
+      ]
+    }
+  },
+  "users": [
+    {
+      "id": "usr-student-01",
+      "email": "aarav.24cse101@vanguardtech.edu.in",
+      "username": "24CSE101",
+      "passwordHash": "vanguard-erp-salt:33304c334bd65ab77b40d65899d7270eafe49168a0def85cdf118fd38d816690b71c87126d178d82d50bb39fe04662396a3854c7a06dc7c3ba9490dcf8d5cd97",
+      "fullName": "Aaravindhan Selvam",
+      "roles": [
+        "STUDENT"
+      ],
+      "departmentId": "dept-cse",
+      "studentId": "stu-01",
+      "status": "ACTIVE",
+      "lastLoginAt": "2026-11-12T08:45:00Z"
+    },
+    {
+      "id": "usr-faculty-02",
+      "email": "karthik.r@vanguardtech.edu.in",
+      "username": "VIT-CSE-004",
+      "passwordHash": "vanguard-erp-salt:33304c334bd65ab77b40d65899d7270eafe49168a0def85cdf118fd38d816690b71c87126d178d82d50bb39fe04662396a3854c7a06dc7c3ba9490dcf8d5cd97",
+      "fullName": "Prof. Karthik Ramanathan",
+      "roles": [
+        "FACULTY",
+        "CLASS_ADVISOR",
+        "ASSISTANT_HOD"
+      ],
+      "departmentId": "dept-cse",
+      "staffId": "staff-02",
+      "status": "ACTIVE",
+      "lastLoginAt": "2026-11-12T09:10:00Z"
+    },
+    {
+      "id": "usr-hod-01",
+      "email": "hod.cse@vanguardtech.edu.in",
+      "username": "VIT-CSE-001",
+      "passwordHash": "vanguard-erp-salt:33304c334bd65ab77b40d65899d7270eafe49168a0def85cdf118fd38d816690b71c87126d178d82d50bb39fe04662396a3854c7a06dc7c3ba9490dcf8d5cd97",
+      "fullName": "Dr. Meenakshi Sundaram",
+      "roles": [
+        "HOD",
+        "FACULTY"
+      ],
+      "departmentId": "dept-cse",
+      "staffId": "staff-01",
+      "status": "ACTIVE",
+      "lastLoginAt": "2026-11-12T08:15:00Z"
+    },
+    {
+      "id": "usr-admin-01",
+      "email": "admin@vanguardtech.edu.in",
+      "username": "VIT-ADM-001",
+      "passwordHash": "vanguard-erp-salt:33304c334bd65ab77b40d65899d7270eafe49168a0def85cdf118fd38d816690b71c87126d178d82d50bb39fe04662396a3854c7a06dc7c3ba9490dcf8d5cd97",
+      "fullName": "Dr. R. Subramanian",
+      "roles": [
+        "COLLEGE_ADMIN",
+        "PRINCIPAL",
+        "SUPER_ADMIN"
+      ],
+      "departmentId": "dept-cse",
+      "staffId": "staff-admin",
+      "status": "ACTIVE",
+      "lastLoginAt": "2026-11-12T08:00:00Z"
+    },
+    {
+      "id": "usr-faculty-03",
+      "email": "ananya.k@vanguardtech.edu.in",
+      "username": "VIT-CSE-009",
+      "passwordHash": "vanguard-erp-salt:33304c334bd65ab77b40d65899d7270eafe49168a0def85cdf118fd38d816690b71c87126d178d82d50bb39fe04662396a3854c7a06dc7c3ba9490dcf8d5cd97",
+      "fullName": "Dr. Ananya Krishnan",
+      "roles": [
+        "FACULTY",
+        "CLASS_ADVISOR",
+        "IQAC_COORDINATOR"
+      ],
+      "departmentId": "dept-cse",
+      "staffId": "staff-03",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "usr-staff-06",
+      "email": "senthil.lab@vanguardtech.edu.in",
+      "username": "VIT-CSE-021",
+      "passwordHash": "vanguard-erp-salt:33304c334bd65ab77b40d65899d7270eafe49168a0def85cdf118fd38d816690b71c87126d178d82d50bb39fe04662396a3854c7a06dc7c3ba9490dcf8d5cd97",
+      "fullName": "Mr. Senthil Kumar M",
+      "roles": [
+        "NON_TEACHING_STAFF",
+        "LAB_INCHARGE"
+      ],
+      "departmentId": "dept-cse",
+      "staffId": "staff-06",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "usr-ece-hod-01",
+      "email": "hod.ece@vanguardtech.edu.in",
+      "username": "VIT-ECE-001",
+      "passwordHash": "vanguard-erp-salt:33304c334bd65ab77b40d65899d7270eafe49168a0def85cdf118fd38d816690b71c87126d178d82d50bb39fe04662396a3854c7a06dc7c3ba9490dcf8d5cd97",
+      "fullName": "Dr. Aravind Swaminathan",
+      "roles": [
+        "HOD",
+        "FACULTY"
+      ],
+      "departmentId": "dept-ece",
+      "staffId": "staff-ece-01",
+      "status": "ACTIVE",
+      "lastLoginAt": "2026-11-12T08:30:00Z"
+    },
+    {
+      "id": "usr-ece-fac-02",
+      "email": "priya.ece@vanguardtech.edu.in",
+      "username": "VIT-ECE-004",
+      "passwordHash": "vanguard-erp-salt:33304c334bd65ab77b40d65899d7270eafe49168a0def85cdf118fd38d816690b71c87126d178d82d50bb39fe04662396a3854c7a06dc7c3ba9490dcf8d5cd97",
+      "fullName": "Prof. Priya Narayanan",
+      "roles": [
+        "FACULTY",
+        "CLASS_ADVISOR"
+      ],
+      "departmentId": "dept-ece",
+      "staffId": "staff-ece-02",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "usr-ece-stu-01",
+      "email": "divya.24ece101@vanguardtech.edu.in",
+      "username": "24ECE101",
+      "passwordHash": "vanguard-erp-salt:33304c334bd65ab77b40d65899d7270eafe49168a0def85cdf118fd38d816690b71c87126d178d82d50bb39fe04662396a3854c7a06dc7c3ba9490dcf8d5cd97",
+      "fullName": "Divyashree Venkataraman",
+      "roles": [
+        "STUDENT"
+      ],
+      "departmentId": "dept-ece",
+      "studentId": "stu-ece-01",
+      "status": "ACTIVE"
+    }
+  ],
+  "students": [
+    {
+      "id": "stu-01",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-cse",
+      "registerNumber": "24CSE101",
+      "fullName": "Aaravindhan Selvam",
+      "email": "aarav.24cse101@vanguardtech.edu.in",
+      "phone": "+91 97890 44101",
+      "dob": "2006-04-12",
+      "gender": "Male",
+      "programmeId": "prog-be-cse",
+      "batchId": "batch-2024",
+      "semester": 5,
+      "sectionId": "sec-5a",
+      "mentorStaffId": "staff-02",
+      "admissionDate": "2024-08-05",
+      "admissionCategory": "Regular",
+      "status": "ACTIVE",
+      "guardianName": "Selvam Natarajan",
+      "guardianPhone": "+91 94430 11201",
+      "address": "18 Race Course Road, Coimbatore",
+      "cgpa": 8.94,
+      "documentsVerified": true,
+      "documents": [
+        {
+          "id": "doc-1",
+          "title": "12th Marksheet",
+          "status": "Verified",
+          "uploadedAt": "2024-08-05"
+        },
+        {
+          "id": "doc-2",
+          "title": "Transfer Certificate",
+          "status": "Verified",
+          "uploadedAt": "2024-08-05"
+        }
+      ]
+    },
+    {
+      "id": "stu-02",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-cse",
+      "registerNumber": "24CSE102",
+      "fullName": "Harini Balasubramanian",
+      "email": "harini.24cse102@vanguardtech.edu.in",
+      "phone": "+91 97890 44102",
+      "dob": "2006-08-23",
+      "gender": "Female",
+      "programmeId": "prog-be-cse",
+      "batchId": "batch-2024",
+      "semester": 5,
+      "sectionId": "sec-5a",
+      "mentorStaffId": "staff-02",
+      "admissionDate": "2024-08-05",
+      "admissionCategory": "Scholarship",
+      "status": "ACTIVE",
+      "guardianName": "Balasubramanian V",
+      "guardianPhone": "+91 94430 11202",
+      "address": "45 Saibaba Colony, Coimbatore",
+      "cgpa": 9.21,
+      "documentsVerified": true,
+      "documents": [
+        {
+          "id": "doc-3",
+          "title": "12th Marksheet",
+          "status": "Verified",
+          "uploadedAt": "2024-08-05"
+        }
+      ]
+    },
+    {
+      "id": "stu-03",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-cse",
+      "registerNumber": "24CSE103",
+      "fullName": "Pranav Venkatesh",
+      "email": "pranav.24cse103@vanguardtech.edu.in",
+      "phone": "+91 97890 44103",
+      "dob": "2006-02-19",
+      "gender": "Male",
+      "programmeId": "prog-be-cse",
+      "batchId": "batch-2024",
+      "semester": 5,
+      "sectionId": "sec-5a",
+      "mentorStaffId": "staff-02",
+      "admissionDate": "2024-08-06",
+      "admissionCategory": "Regular",
+      "status": "ACTIVE",
+      "guardianName": "Venkatesh R",
+      "guardianPhone": "+91 94430 11203",
+      "address": "102 Peelamedu, Coimbatore",
+      "cgpa": 7.42,
+      "documentsVerified": true,
+      "documents": [
+        {
+          "id": "doc-4",
+          "title": "12th Marksheet",
+          "status": "Verified",
+          "uploadedAt": "2024-08-06"
+        }
+      ]
+    },
+    {
+      "id": "stu-04",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-cse",
+      "registerNumber": "24CSE104",
+      "fullName": "Niharika Deshmukh",
+      "email": "niharika.24cse104@vanguardtech.edu.in",
+      "phone": "+91 97890 44104",
+      "dob": "2006-11-04",
+      "gender": "Female",
+      "programmeId": "prog-be-cse",
+      "batchId": "batch-2024",
+      "semester": 5,
+      "sectionId": "sec-5a",
+      "mentorStaffId": "staff-02",
+      "admissionDate": "2024-08-06",
+      "admissionCategory": "Regular",
+      "status": "ACTIVE",
+      "guardianName": "Rajesh Deshmukh",
+      "guardianPhone": "+91 94430 11204",
+      "address": "7B RS Puram, Coimbatore",
+      "cgpa": 8.65,
+      "documentsVerified": true,
+      "documents": [
+        {
+          "id": "doc-5",
+          "title": "12th Marksheet",
+          "status": "Verified",
+          "uploadedAt": "2024-08-06"
+        }
+      ]
+    },
+    {
+      "id": "stu-05",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-cse",
+      "registerNumber": "24CSE105",
+      "fullName": "Kavinraj Murugesan",
+      "email": "kavin.24cse105@vanguardtech.edu.in",
+      "phone": "+91 97890 44105",
+      "dob": "2006-05-30",
+      "gender": "Male",
+      "programmeId": "prog-be-cse",
+      "batchId": "batch-2024",
+      "semester": 5,
+      "sectionId": "sec-5a",
+      "mentorStaffId": "staff-02",
+      "admissionDate": "2024-08-07",
+      "admissionCategory": "Lateral",
+      "status": "ACTIVE",
+      "guardianName": "Murugesan P",
+      "guardianPhone": "+91 94430 11205",
+      "address": "29 Gandhipuram, Coimbatore",
+      "cgpa": 6.88,
+      "documentsVerified": false,
+      "documents": [
+        {
+          "id": "doc-6",
+          "title": "Diploma Certificate",
+          "status": "Pending",
+          "uploadedAt": "2024-08-07"
+        }
+      ]
+    },
+    {
+      "id": "stu-06",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-cse",
+      "registerNumber": "24CSE106",
+      "fullName": "Shruti Chandrasekar",
+      "email": "shruti.24cse106@vanguardtech.edu.in",
+      "phone": "+91 97890 44106",
+      "dob": "2006-09-14",
+      "gender": "Female",
+      "programmeId": "prog-be-cse",
+      "batchId": "batch-2024",
+      "semester": 5,
+      "sectionId": "sec-5a",
+      "mentorStaffId": "staff-02",
+      "admissionDate": "2024-08-07",
+      "admissionCategory": "Regular",
+      "status": "ACTIVE",
+      "guardianName": "Chandrasekar T",
+      "guardianPhone": "+91 94430 11206",
+      "address": "88 Vadavalli, Coimbatore",
+      "cgpa": 8.41,
+      "documentsVerified": true,
+      "documents": [
+        {
+          "id": "doc-7",
+          "title": "12th Marksheet",
+          "status": "Verified",
+          "uploadedAt": "2024-08-07"
+        }
+      ]
+    },
+    {
+      "id": "stu-07",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-cse",
+      "registerNumber": "24CSE201",
+      "fullName": "Siddharth Menon",
+      "email": "siddharth.24cse201@vanguardtech.edu.in",
+      "phone": "+91 97890 44201",
+      "dob": "2006-03-11",
+      "gender": "Male",
+      "programmeId": "prog-be-cse",
+      "batchId": "batch-2024",
+      "semester": 5,
+      "sectionId": "sec-5b",
+      "mentorStaffId": "staff-03",
+      "admissionDate": "2024-08-08",
+      "admissionCategory": "Regular",
+      "status": "ACTIVE",
+      "guardianName": "Narayanan Menon",
+      "guardianPhone": "+91 94430 11207",
+      "address": "14 Avinashi Road, Coimbatore",
+      "cgpa": 8.78,
+      "documentsVerified": true,
+      "documents": []
+    },
+    {
+      "id": "stu-08",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-cse",
+      "registerNumber": "24CSE202",
+      "fullName": "Keerthana Rajendran",
+      "email": "keerthana.24cse202@vanguardtech.edu.in",
+      "phone": "+91 97890 44202",
+      "dob": "2006-07-22",
+      "gender": "Female",
+      "programmeId": "prog-be-cse",
+      "batchId": "batch-2024",
+      "semester": 5,
+      "sectionId": "sec-5b",
+      "mentorStaffId": "staff-03",
+      "admissionDate": "2024-08-08",
+      "admissionCategory": "Regular",
+      "status": "ACTIVE",
+      "guardianName": "Rajendran K",
+      "guardianPhone": "+91 94430 11208",
+      "address": "61 Singanallur, Coimbatore",
+      "cgpa": 7.95,
+      "documentsVerified": true,
+      "documents": []
+    },
+    {
+      "id": "stu-09",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-cse",
+      "registerNumber": "24CSE203",
+      "fullName": "Rohan Kulkarni",
+      "email": "rohan.24cse203@vanguardtech.edu.in",
+      "phone": "+91 97890 44203",
+      "dob": "2006-01-29",
+      "gender": "Male",
+      "programmeId": "prog-be-cse",
+      "batchId": "batch-2024",
+      "semester": 5,
+      "sectionId": "sec-5b",
+      "mentorStaffId": "staff-03",
+      "admissionDate": "2024-08-09",
+      "admissionCategory": "Management",
+      "status": "ACTIVE",
+      "guardianName": "Suresh Kulkarni",
+      "guardianPhone": "+91 94430 11209",
+      "address": "23 Saravanampatti, Coimbatore",
+      "cgpa": 6.52,
+      "documentsVerified": true,
+      "documents": []
+    },
+    {
+      "id": "stu-10",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-cse",
+      "registerNumber": "24CSE204",
+      "fullName": "Anjali Sukumaran",
+      "email": "anjali.24cse204@vanguardtech.edu.in",
+      "phone": "+91 97890 44204",
+      "dob": "2006-12-03",
+      "gender": "Female",
+      "programmeId": "prog-be-cse",
+      "batchId": "batch-2024",
+      "semester": 5,
+      "sectionId": "sec-5b",
+      "mentorStaffId": "staff-03",
+      "admissionDate": "2024-08-09",
+      "admissionCategory": "Scholarship",
+      "status": "ACTIVE",
+      "guardianName": "Sukumaran M",
+      "guardianPhone": "+91 94430 11210",
+      "address": "52 Kalapatti, Coimbatore",
+      "cgpa": 9.05,
+      "documentsVerified": true,
+      "documents": []
+    },
+    {
+      "id": "stu-11",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-cse",
+      "registerNumber": "25CSE101",
+      "fullName": "Vikramaditya Rao",
+      "email": "vikram.25cse101@vanguardtech.edu.in",
+      "phone": "+91 97890 45101",
+      "dob": "2007-06-18",
+      "gender": "Male",
+      "programmeId": "prog-be-cse",
+      "batchId": "batch-2025",
+      "semester": 3,
+      "sectionId": "sec-3a",
+      "mentorStaffId": "staff-04",
+      "admissionDate": "2025-08-04",
+      "admissionCategory": "Regular",
+      "status": "ACTIVE",
+      "guardianName": "Prakash Rao",
+      "guardianPhone": "+91 94430 11301",
+      "address": "91 Hopes College, Coimbatore",
+      "cgpa": 8.32,
+      "documentsVerified": true,
+      "documents": []
+    },
+    {
+      "id": "stu-12",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-cse",
+      "registerNumber": "25CSE102",
+      "fullName": "Meghna Krishnamurthy",
+      "email": "meghna.25cse102@vanguardtech.edu.in",
+      "phone": "+91 97890 45102",
+      "dob": "2007-10-08",
+      "gender": "Female",
+      "programmeId": "prog-be-cse",
+      "batchId": "batch-2025",
+      "semester": 3,
+      "sectionId": "sec-3a",
+      "mentorStaffId": "staff-04",
+      "admissionDate": "2025-08-04",
+      "admissionCategory": "Regular",
+      "status": "ACTIVE",
+      "guardianName": "Krishnamurthy S",
+      "guardianPhone": "+91 94430 11302",
+      "address": "12 Thudiyalur, Coimbatore",
+      "cgpa": 8.89,
+      "documentsVerified": true,
+      "documents": []
+    },
+    {
+      "id": "stu-13",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-cse",
+      "registerNumber": "23CSE101",
+      "fullName": "Deepak Subramani",
+      "email": "deepak.23cse101@vanguardtech.edu.in",
+      "phone": "+91 97890 43101",
+      "dob": "2005-03-25",
+      "gender": "Male",
+      "programmeId": "prog-be-cse",
+      "batchId": "batch-2023",
+      "semester": 7,
+      "sectionId": "sec-7a",
+      "mentorStaffId": "staff-05",
+      "admissionDate": "2023-08-01",
+      "admissionCategory": "Regular",
+      "status": "ACTIVE",
+      "guardianName": "Subramani R",
+      "guardianPhone": "+91 94430 11401",
+      "address": "77 Ramanathapuram, Coimbatore",
+      "cgpa": 9.12,
+      "documentsVerified": true,
+      "documents": []
+    },
+    {
+      "id": "stu-14",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-cse",
+      "registerNumber": "23CSE102",
+      "fullName": "Varshini Natarajan",
+      "email": "varshini.23cse102@vanguardtech.edu.in",
+      "phone": "+91 97890 43102",
+      "dob": "2005-09-02",
+      "gender": "Female",
+      "programmeId": "prog-be-cse",
+      "batchId": "batch-2023",
+      "semester": 7,
+      "sectionId": "sec-7a",
+      "mentorStaffId": "staff-05",
+      "admissionDate": "2023-08-01",
+      "admissionCategory": "Scholarship",
+      "status": "ACTIVE",
+      "guardianName": "Natarajan G",
+      "guardianPhone": "+91 94430 11402",
+      "address": "33 Kuniyamuthur, Coimbatore",
+      "cgpa": 8.74,
+      "documentsVerified": true,
+      "documents": []
+    },
+    {
+      "id": "stu-15",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-cse",
+      "registerNumber": "26CSE101",
+      "fullName": "Ishaan Karthikeyan",
+      "email": "ishaan.26cse101@vanguardtech.edu.in",
+      "phone": "+91 97890 46101",
+      "dob": "2008-05-14",
+      "gender": "Male",
+      "programmeId": "prog-be-cse",
+      "batchId": "batch-2026",
+      "semester": 1,
+      "sectionId": "sec-1a",
+      "mentorStaffId": "staff-04",
+      "admissionDate": "2026-08-03",
+      "admissionCategory": "Regular",
+      "status": "ACTIVE",
+      "guardianName": "Karthikeyan V",
+      "guardianPhone": "+91 94430 11501",
+      "address": "21 Peelamedu, Coimbatore",
+      "cgpa": 8.55,
+      "documentsVerified": true,
+      "documents": []
+    },
+    {
+      "id": "stu-16",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-cse",
+      "registerNumber": "26CSE102",
+      "fullName": "Tanvi Jayakumar",
+      "email": "tanvi.26cse102@vanguardtech.edu.in",
+      "phone": "+91 97890 46102",
+      "dob": "2008-09-21",
+      "gender": "Female",
+      "programmeId": "prog-be-cse",
+      "batchId": "batch-2026",
+      "semester": 1,
+      "sectionId": "sec-1a",
+      "mentorStaffId": "staff-04",
+      "admissionDate": "2026-08-03",
+      "admissionCategory": "Scholarship",
+      "status": "ACTIVE",
+      "guardianName": "Jayakumar P",
+      "guardianPhone": "+91 94430 11502",
+      "address": "9 Saibaba Colony, Coimbatore",
+      "cgpa": 9.02,
+      "documentsVerified": true,
+      "documents": []
+    },
+    {
+      "id": "stu-17",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-cse",
+      "registerNumber": "26CSE103",
+      "fullName": "Nitin Soundararajan",
+      "email": "nitin.26cse103@vanguardtech.edu.in",
+      "phone": "+91 97890 46103",
+      "dob": "2008-03-10",
+      "gender": "Male",
+      "programmeId": "prog-be-cse",
+      "batchId": "batch-2026",
+      "semester": 1,
+      "sectionId": "sec-1a",
+      "mentorStaffId": "staff-04",
+      "admissionDate": "2026-08-04",
+      "admissionCategory": "Regular",
+      "status": "ACTIVE",
+      "guardianName": "Soundararajan M",
+      "guardianPhone": "+91 94430 11503",
+      "address": "54 Vadavalli, Coimbatore",
+      "cgpa": 7.18,
+      "documentsVerified": true,
+      "documents": []
+    },
+    {
+      "id": "stu-ece-01",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-ece",
+      "registerNumber": "24ECE101",
+      "fullName": "Divyashree Venkataraman",
+      "email": "divya.24ece101@vanguardtech.edu.in",
+      "phone": "+91 97890 54101",
+      "dob": "2006-06-11",
+      "gender": "Female",
+      "programmeId": "prog-be-ece",
+      "batchId": "batch-ece-2024",
+      "semester": 5,
+      "sectionId": "sec-ece-5a",
+      "mentorStaffId": "staff-ece-02",
+      "admissionDate": "2024-08-05",
+      "admissionCategory": "Regular",
+      "status": "ACTIVE",
+      "guardianName": "Venkataraman S",
+      "guardianPhone": "+91 94430 22101",
+      "address": "15 Gandhipuram, Coimbatore",
+      "cgpa": 8.84,
+      "documentsVerified": true,
+      "documents": []
+    },
+    {
+      "id": "stu-ece-02",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-ece",
+      "registerNumber": "24ECE102",
+      "fullName": "Arjun Ramasamy",
+      "email": "arjun.24ece102@vanguardtech.edu.in",
+      "phone": "+91 97890 54102",
+      "dob": "2006-02-27",
+      "gender": "Male",
+      "programmeId": "prog-be-ece",
+      "batchId": "batch-ece-2024",
+      "semester": 5,
+      "sectionId": "sec-ece-5a",
+      "mentorStaffId": "staff-ece-02",
+      "admissionDate": "2024-08-05",
+      "admissionCategory": "Regular",
+      "status": "ACTIVE",
+      "guardianName": "Ramasamy K",
+      "guardianPhone": "+91 94430 22102",
+      "address": "40 Singanallur, Coimbatore",
+      "cgpa": 6.95,
+      "documentsVerified": true,
+      "documents": []
+    },
+    {
+      "id": "stu-ece-03",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-ece",
+      "registerNumber": "26ECE101",
+      "fullName": "Kavya Senthilnathan",
+      "email": "kavya.26ece101@vanguardtech.edu.in",
+      "phone": "+91 97890 56101",
+      "dob": "2008-07-04",
+      "gender": "Female",
+      "programmeId": "prog-be-ece",
+      "batchId": "batch-ece-2026",
+      "semester": 1,
+      "sectionId": "sec-ece-1a",
+      "mentorStaffId": "staff-ece-02",
+      "admissionDate": "2026-08-03",
+      "admissionCategory": "Scholarship",
+      "status": "ACTIVE",
+      "guardianName": "Senthilnathan R",
+      "guardianPhone": "+91 94430 22201",
+      "address": "82 Race Course, Coimbatore",
+      "cgpa": 8.76,
+      "documentsVerified": true,
+      "documents": []
+    },
+    {
+      "id": "stu-ece-04",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-ece",
+      "registerNumber": "26ECE102",
+      "fullName": "Surya Prakash G",
+      "email": "surya.26ece102@vanguardtech.edu.in",
+      "phone": "+91 97890 56102",
+      "dob": "2008-11-19",
+      "gender": "Male",
+      "programmeId": "prog-be-ece",
+      "batchId": "batch-ece-2026",
+      "semester": 1,
+      "sectionId": "sec-ece-1a",
+      "mentorStaffId": "staff-ece-02",
+      "admissionDate": "2026-08-04",
+      "admissionCategory": "Regular",
+      "status": "ACTIVE",
+      "guardianName": "Ganesan P",
+      "guardianPhone": "+91 94430 22202",
+      "address": "11 Kalapatti, Coimbatore",
+      "cgpa": 7.92,
+      "documentsVerified": true,
+      "documents": []
+    },
+    {
+      "id": "stu-ece-05",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-ece",
+      "registerNumber": "25ECE101",
+      "fullName": "Madhumitha Thiagarajan",
+      "email": "madhu.25ece101@vanguardtech.edu.in",
+      "phone": "+91 97890 55101",
+      "dob": "2007-04-09",
+      "gender": "Female",
+      "programmeId": "prog-be-ece",
+      "batchId": "batch-ece-2025",
+      "semester": 3,
+      "sectionId": "sec-ece-3a",
+      "mentorStaffId": "staff-ece-02",
+      "admissionDate": "2025-08-04",
+      "admissionCategory": "Regular",
+      "status": "ACTIVE",
+      "guardianName": "Thiagarajan B",
+      "guardianPhone": "+91 94430 22301",
+      "address": "27 RS Puram, Coimbatore",
+      "cgpa": 8.48,
+      "documentsVerified": true,
+      "documents": []
+    },
+    {
+      "id": "stu-ece-06",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-ece",
+      "registerNumber": "25ECE102",
+      "fullName": "Harishankar Babu",
+      "email": "hari.25ece102@vanguardtech.edu.in",
+      "phone": "+91 97890 55102",
+      "dob": "2007-08-15",
+      "gender": "Male",
+      "programmeId": "prog-be-ece",
+      "batchId": "batch-ece-2025",
+      "semester": 3,
+      "sectionId": "sec-ece-3a",
+      "mentorStaffId": "staff-ece-02",
+      "admissionDate": "2025-08-05",
+      "admissionCategory": "Regular",
+      "status": "ACTIVE",
+      "guardianName": "Babu N",
+      "guardianPhone": "+91 94430 22302",
+      "address": "63 Saravanampatti, Coimbatore",
+      "cgpa": 7.64,
+      "documentsVerified": true,
+      "documents": []
+    },
+    {
+      "id": "stu-ece-07",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-ece",
+      "registerNumber": "23ECE101",
+      "fullName": "Nandhini Velusamy",
+      "email": "nandhini.23ece101@vanguardtech.edu.in",
+      "phone": "+91 97890 53101",
+      "dob": "2005-01-22",
+      "gender": "Female",
+      "programmeId": "prog-be-ece",
+      "batchId": "batch-ece-2023",
+      "semester": 7,
+      "sectionId": "sec-ece-7a",
+      "mentorStaffId": "staff-ece-01",
+      "admissionDate": "2023-08-02",
+      "admissionCategory": "Scholarship",
+      "status": "ACTIVE",
+      "guardianName": "Velusamy T",
+      "guardianPhone": "+91 94430 22401",
+      "address": "19 Thudiyalur, Coimbatore",
+      "cgpa": 9.08,
+      "documentsVerified": true,
+      "documents": []
+    },
+    {
+      "id": "stu-ece-08",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-ece",
+      "registerNumber": "23ECE102",
+      "fullName": "Gowtham Chakravarthy",
+      "email": "gowtham.23ece102@vanguardtech.edu.in",
+      "phone": "+91 97890 53102",
+      "dob": "2005-10-03",
+      "gender": "Male",
+      "programmeId": "prog-be-ece",
+      "batchId": "batch-ece-2023",
+      "semester": 7,
+      "sectionId": "sec-ece-7a",
+      "mentorStaffId": "staff-ece-01",
+      "admissionDate": "2023-08-02",
+      "admissionCategory": "Regular",
+      "status": "ACTIVE",
+      "guardianName": "Chakravarthy D",
+      "guardianPhone": "+91 94430 22402",
+      "address": "50 Kuniyamuthur, Coimbatore",
+      "cgpa": 8.15,
+      "documentsVerified": true,
+      "documents": []
+    }
+  ],
+  "staff": [
+    {
+      "id": "staff-01",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-cse",
+      "staffCode": "VIT-CSE-001",
+      "fullName": "Dr. Meenakshi Sundaram",
+      "email": "hod.cse@vanguardtech.edu.in",
+      "phone": "+91 98422 11001",
+      "category": "TEACHING",
+      "designation": "Professor & HOD",
+      "qualification": "Ph.D. (Distributed Systems)",
+      "specialization": "Cloud Architecture & Distributed Computing",
+      "joiningDate": "2016-06-15",
+      "status": "ACTIVE",
+      "weeklyMaxHours": 12,
+      "assignedRoles": [
+        "HOD",
+        "FACULTY"
+      ],
+      "fdpCount": 8,
+      "publicationCount": 19
+    },
+    {
+      "id": "staff-02",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-cse",
+      "staffCode": "VIT-CSE-004",
+      "fullName": "Prof. Karthik Ramanathan",
+      "email": "karthik.r@vanguardtech.edu.in",
+      "phone": "+91 98422 11004",
+      "category": "TEACHING",
+      "designation": "Associate Professor",
+      "qualification": "M.E., Ph.D. (Pursuing)",
+      "specialization": "Machine Learning & Data Mining",
+      "joiningDate": "2018-07-02",
+      "status": "ACTIVE",
+      "weeklyMaxHours": 16,
+      "assignedRoles": [
+        "FACULTY",
+        "CLASS_ADVISOR",
+        "ASSISTANT_HOD"
+      ],
+      "fdpCount": 6,
+      "publicationCount": 11
+    },
+    {
+      "id": "staff-03",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-cse",
+      "staffCode": "VIT-CSE-009",
+      "fullName": "Dr. Ananya Krishnan",
+      "email": "ananya.k@vanguardtech.edu.in",
+      "phone": "+91 98422 11009",
+      "category": "TEACHING",
+      "designation": "Associate Professor",
+      "qualification": "Ph.D. (Computer Networks)",
+      "specialization": "Cybersecurity & Zero-Trust Networks",
+      "joiningDate": "2019-08-12",
+      "status": "ACTIVE",
+      "weeklyMaxHours": 16,
+      "assignedRoles": [
+        "FACULTY",
+        "CLASS_ADVISOR",
+        "IQAC_COORDINATOR"
+      ],
+      "fdpCount": 7,
+      "publicationCount": 14
+    },
+    {
+      "id": "staff-04",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-cse",
+      "staffCode": "VIT-CSE-012",
+      "fullName": "Prof. Vigneshwaran Nair",
+      "email": "vignesh.n@vanguardtech.edu.in",
+      "phone": "+91 98422 11012",
+      "category": "TEACHING",
+      "designation": "Assistant Professor (Sr. Grade)",
+      "qualification": "M.Tech. (Software Engineering)",
+      "specialization": "Database Internals & Full-Stack Systems",
+      "joiningDate": "2020-06-20",
+      "status": "ACTIVE",
+      "weeklyMaxHours": 18,
+      "assignedRoles": [
+        "FACULTY",
+        "CLASS_ADVISOR",
+        "EXAM_COORDINATOR"
+      ],
+      "fdpCount": 5,
+      "publicationCount": 6
+    },
+    {
+      "id": "staff-05",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-cse",
+      "staffCode": "VIT-CSE-015",
+      "fullName": "Prof. Divya Bharathi",
+      "email": "divya.b@vanguardtech.edu.in",
+      "phone": "+91 98422 11015",
+      "category": "TEACHING",
+      "designation": "Assistant Professor",
+      "qualification": "M.E. (CSE)",
+      "specialization": "Compiler Design & Algorithms",
+      "joiningDate": "2021-07-05",
+      "status": "ACTIVE",
+      "weeklyMaxHours": 18,
+      "assignedRoles": [
+        "FACULTY",
+        "PLACEMENT_COORDINATOR"
+      ],
+      "fdpCount": 4,
+      "publicationCount": 4
+    },
+    {
+      "id": "staff-06",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-cse",
+      "staffCode": "VIT-CSE-021",
+      "fullName": "Mr. Senthil Kumar M",
+      "email": "senthil.lab@vanguardtech.edu.in",
+      "phone": "+91 98422 11021",
+      "category": "NON_TEACHING",
+      "designation": "Senior Lab Superintendent",
+      "qualification": "B.E. (CSE), RHCE",
+      "specialization": "Linux Clusters & Network Administration",
+      "joiningDate": "2017-05-10",
+      "status": "ACTIVE",
+      "weeklyMaxHours": 24,
+      "assignedRoles": [
+        "NON_TEACHING_STAFF",
+        "LAB_INCHARGE"
+      ],
+      "fdpCount": 3,
+      "publicationCount": 0
+    },
+    {
+      "id": "staff-admin",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-cse",
+      "staffCode": "VIT-ADM-001",
+      "fullName": "Dr. R. Subramanian",
+      "email": "admin@vanguardtech.edu.in",
+      "phone": "+91 98422 10001",
+      "category": "TEACHING",
+      "designation": "Principal & College Administrator",
+      "qualification": "Ph.D. (Engineering Management)",
+      "specialization": "Institutional Governance & Quality Systems",
+      "joiningDate": "2014-01-10",
+      "status": "ACTIVE",
+      "weeklyMaxHours": 8,
+      "assignedRoles": [
+        "COLLEGE_ADMIN",
+        "PRINCIPAL"
+      ],
+      "fdpCount": 12,
+      "publicationCount": 28
+    },
+    {
+      "id": "staff-ece-01",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-ece",
+      "staffCode": "VIT-ECE-001",
+      "fullName": "Dr. Aravind Swaminathan",
+      "email": "hod.ece@vanguardtech.edu.in",
+      "phone": "+91 98422 21001",
+      "category": "TEACHING",
+      "designation": "Professor & HOD (ECE)",
+      "qualification": "Ph.D. (VLSI Design)",
+      "specialization": "Low-Power CMOS & SoC Verification",
+      "joiningDate": "2017-06-12",
+      "status": "ACTIVE",
+      "weeklyMaxHours": 12,
+      "assignedRoles": [
+        "HOD",
+        "FACULTY"
+      ],
+      "fdpCount": 7,
+      "publicationCount": 16
+    },
+    {
+      "id": "staff-ece-02",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-ece",
+      "staffCode": "VIT-ECE-004",
+      "fullName": "Prof. Priya Narayanan",
+      "email": "priya.ece@vanguardtech.edu.in",
+      "phone": "+91 98422 21004",
+      "category": "TEACHING",
+      "designation": "Associate Professor",
+      "qualification": "M.E., Ph.D. (Wireless Comm.)",
+      "specialization": "5G MIMO & Embedded Signal Processing",
+      "joiningDate": "2019-07-08",
+      "status": "ACTIVE",
+      "weeklyMaxHours": 16,
+      "assignedRoles": [
+        "FACULTY",
+        "CLASS_ADVISOR"
+      ],
+      "fdpCount": 5,
+      "publicationCount": 9
+    },
+    {
+      "id": "staff-ece-03",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-ece",
+      "staffCode": "VIT-ECE-018",
+      "fullName": "Mr. Rajeshwaran K",
+      "email": "rajesh.ecelab@vanguardtech.edu.in",
+      "phone": "+91 98422 21018",
+      "category": "NON_TEACHING",
+      "designation": "Senior VLSI & Embedded Lab Instructor",
+      "qualification": "B.E. (ECE)",
+      "specialization": "FPGA Toolchains & Oscilloscope Calibration",
+      "joiningDate": "2020-02-03",
+      "status": "ACTIVE",
+      "weeklyMaxHours": 24,
+      "assignedRoles": [
+        "NON_TEACHING_STAFF",
+        "LAB_INCHARGE"
+      ],
+      "fdpCount": 2,
+      "publicationCount": 0
+    }
+  ],
+  "staffAttendance": [
+    {
+      "id": "sa-01",
+      "departmentId": "dept-cse",
+      "staffId": "staff-01",
+      "date": "2026-11-12",
+      "status": "PRESENT",
+      "checkInTime": "08:40",
+      "markedByName": "Dr. Meenakshi Sundaram"
+    },
+    {
+      "id": "sa-02",
+      "departmentId": "dept-cse",
+      "staffId": "staff-02",
+      "date": "2026-11-12",
+      "status": "PRESENT",
+      "checkInTime": "08:50",
+      "markedByName": "Dr. Meenakshi Sundaram"
+    },
+    {
+      "id": "sa-03",
+      "departmentId": "dept-cse",
+      "staffId": "staff-03",
+      "date": "2026-11-12",
+      "status": "PRESENT",
+      "checkInTime": "08:55",
+      "markedByName": "Dr. Meenakshi Sundaram"
+    },
+    {
+      "id": "sa-04",
+      "departmentId": "dept-cse",
+      "staffId": "staff-04",
+      "date": "2026-11-12",
+      "status": "ON_DUTY",
+      "checkInTime": "09:00",
+      "remarks": "NBA IQAC workshop",
+      "markedByName": "Dr. Meenakshi Sundaram"
+    },
+    {
+      "id": "sa-05",
+      "departmentId": "dept-cse",
+      "staffId": "staff-05",
+      "date": "2026-11-12",
+      "status": "PRESENT",
+      "checkInTime": "08:48",
+      "markedByName": "Dr. Meenakshi Sundaram"
+    },
+    {
+      "id": "sa-06",
+      "departmentId": "dept-cse",
+      "staffId": "staff-06",
+      "date": "2026-11-12",
+      "status": "PRESENT",
+      "checkInTime": "08:30",
+      "markedByName": "Dr. Meenakshi Sundaram"
+    },
+    {
+      "id": "sa-07",
+      "departmentId": "dept-cse",
+      "staffId": "staff-01",
+      "date": "2026-11-11",
+      "status": "PRESENT",
+      "checkInTime": "08:42",
+      "markedByName": "Dr. Meenakshi Sundaram"
+    },
+    {
+      "id": "sa-08",
+      "departmentId": "dept-cse",
+      "staffId": "staff-02",
+      "date": "2026-11-11",
+      "status": "PRESENT",
+      "checkInTime": "08:52",
+      "markedByName": "Dr. Meenakshi Sundaram"
+    },
+    {
+      "id": "sa-09",
+      "departmentId": "dept-cse",
+      "staffId": "staff-03",
+      "date": "2026-11-11",
+      "status": "ON_LEAVE",
+      "remarks": "Casual Leave approved",
+      "markedByName": "Dr. Meenakshi Sundaram"
+    },
+    {
+      "id": "sa-10",
+      "departmentId": "dept-cse",
+      "staffId": "staff-04",
+      "date": "2026-11-11",
+      "status": "PRESENT",
+      "checkInTime": "08:58",
+      "markedByName": "Dr. Meenakshi Sundaram"
+    },
+    {
+      "id": "sa-11",
+      "departmentId": "dept-cse",
+      "staffId": "staff-05",
+      "date": "2026-11-11",
+      "status": "PRESENT",
+      "checkInTime": "08:49",
+      "markedByName": "Dr. Meenakshi Sundaram"
+    },
+    {
+      "id": "sa-12",
+      "departmentId": "dept-cse",
+      "staffId": "staff-06",
+      "date": "2026-11-11",
+      "status": "PRESENT",
+      "checkInTime": "08:31",
+      "markedByName": "Dr. Meenakshi Sundaram"
+    },
+    {
+      "id": "sa-ece-01",
+      "departmentId": "dept-ece",
+      "staffId": "staff-ece-01",
+      "date": "2026-11-12",
+      "status": "PRESENT",
+      "checkInTime": "08:45",
+      "markedByName": "Dr. Aravind Swaminathan"
+    },
+    {
+      "id": "sa-ece-02",
+      "departmentId": "dept-ece",
+      "staffId": "staff-ece-02",
+      "date": "2026-11-12",
+      "status": "PRESENT",
+      "checkInTime": "08:53",
+      "markedByName": "Dr. Aravind Swaminathan"
+    },
+    {
+      "id": "sa-ece-03",
+      "departmentId": "dept-ece",
+      "staffId": "staff-ece-03",
+      "date": "2026-11-12",
+      "status": "PRESENT",
+      "checkInTime": "08:35",
+      "markedByName": "Dr. Aravind Swaminathan"
+    }
+  ],
+  "staffLeaveBalances": [
+    {
+      "staffId": "staff-01",
+      "departmentId": "dept-cse",
+      "academicYearId": "ay-2026-27",
+      "clTotal": 12,
+      "clUsed": 2,
+      "mlTotal": 10,
+      "mlUsed": 0,
+      "odTotal": 15,
+      "odUsed": 4
+    },
+    {
+      "staffId": "staff-02",
+      "departmentId": "dept-cse",
+      "academicYearId": "ay-2026-27",
+      "clTotal": 12,
+      "clUsed": 3,
+      "mlTotal": 10,
+      "mlUsed": 1,
+      "odTotal": 15,
+      "odUsed": 2
+    },
+    {
+      "staffId": "staff-03",
+      "departmentId": "dept-cse",
+      "academicYearId": "ay-2026-27",
+      "clTotal": 12,
+      "clUsed": 4,
+      "mlTotal": 10,
+      "mlUsed": 2,
+      "odTotal": 15,
+      "odUsed": 3
+    },
+    {
+      "staffId": "staff-04",
+      "departmentId": "dept-cse",
+      "academicYearId": "ay-2026-27",
+      "clTotal": 12,
+      "clUsed": 1,
+      "mlTotal": 10,
+      "mlUsed": 0,
+      "odTotal": 15,
+      "odUsed": 1
+    },
+    {
+      "staffId": "staff-05",
+      "departmentId": "dept-cse",
+      "academicYearId": "ay-2026-27",
+      "clTotal": 12,
+      "clUsed": 2,
+      "mlTotal": 10,
+      "mlUsed": 0,
+      "odTotal": 15,
+      "odUsed": 2
+    },
+    {
+      "staffId": "staff-06",
+      "departmentId": "dept-cse",
+      "academicYearId": "ay-2026-27",
+      "clTotal": 12,
+      "clUsed": 3,
+      "mlTotal": 10,
+      "mlUsed": 1,
+      "odTotal": 15,
+      "odUsed": 0
+    },
+    {
+      "staffId": "staff-admin",
+      "departmentId": "dept-cse",
+      "academicYearId": "ay-2026-27",
+      "clTotal": 12,
+      "clUsed": 1,
+      "mlTotal": 10,
+      "mlUsed": 0,
+      "odTotal": 15,
+      "odUsed": 5
+    },
+    {
+      "staffId": "staff-ece-01",
+      "departmentId": "dept-ece",
+      "academicYearId": "ay-2026-27",
+      "clTotal": 12,
+      "clUsed": 2,
+      "mlTotal": 10,
+      "mlUsed": 0,
+      "odTotal": 15,
+      "odUsed": 3
+    },
+    {
+      "staffId": "staff-ece-02",
+      "departmentId": "dept-ece",
+      "academicYearId": "ay-2026-27",
+      "clTotal": 12,
+      "clUsed": 4,
+      "mlTotal": 10,
+      "mlUsed": 1,
+      "odTotal": 15,
+      "odUsed": 2
+    },
+    {
+      "staffId": "staff-ece-03",
+      "departmentId": "dept-ece",
+      "academicYearId": "ay-2026-27",
+      "clTotal": 12,
+      "clUsed": 1,
+      "mlTotal": 10,
+      "mlUsed": 0,
+      "odTotal": 15,
+      "odUsed": 0
+    }
+  ],
+  "vaultDocuments": [
+    {
+      "id": "vdoc-01",
+      "departmentId": "dept-cse",
+      "section": "DOCUMENT",
+      "ownerType": "STUDENT",
+      "ownerId": "stu-01",
+      "ownerCode": "24CSE101",
+      "ownerName": "Aaravindhan R",
+      "yearOfStudy": 3,
+      "category": "AADHAR",
+      "title": "Aadhar Card — Identity Proof",
+      "documentNumber": "XXXX-XXXX-4821",
+      "issuingAuthority": "UIDAI, Government of India",
+      "issueDate": "2021-05-14",
+      "fileName": "24CSE101_Aadhar_Card.svg",
+      "mimeType": "image/svg+xml",
+      "fileSizeBytes": 245760,
+      "verificationStatus": "VERIFIED",
+      "verifiedByName": "Prof. Karthik Rajagopal",
+      "verifiedAt": "2026-08-18T10:15:00Z",
+      "verificationRemarks": "Verified against original e-Aadhar QR.",
+      "uploadedByUserId": "usr-stu-01",
+      "uploadedByName": "Aaravindhan R",
+      "uploadedAt": "2026-08-15T09:10:00Z"
+    },
+    {
+      "id": "vdoc-02",
+      "departmentId": "dept-cse",
+      "section": "DOCUMENT",
+      "ownerType": "STUDENT",
+      "ownerId": "stu-01",
+      "ownerCode": "24CSE101",
+      "ownerName": "Aaravindhan R",
+      "yearOfStudy": 3,
+      "category": "PASSPORT",
+      "title": "Indian Passport (International Travel / Placements)",
+      "documentNumber": "Z4918204",
+      "issuingAuthority": "Regional Passport Office, Chennai",
+      "issueDate": "2024-02-10",
+      "expiryDate": "2034-02-09",
+      "fileName": "24CSE101_Passport_Copy.svg",
+      "mimeType": "image/svg+xml",
+      "fileSizeBytes": 412000,
+      "verificationStatus": "VERIFIED",
+      "verifiedByName": "Dr. Meenakshi Sundaram",
+      "verifiedAt": "2026-09-02T11:30:00Z",
+      "verificationRemarks": "Verified for campus international placement drive.",
+      "uploadedByUserId": "usr-stu-01",
+      "uploadedByName": "Aaravindhan R",
+      "uploadedAt": "2026-09-01T14:20:00Z"
+    },
+    {
+      "id": "vdoc-03",
+      "departmentId": "dept-cse",
+      "section": "DOCUMENT",
+      "ownerType": "STUDENT",
+      "ownerId": "stu-02",
+      "ownerCode": "24CSE102",
+      "ownerName": "Divya Bharathi S",
+      "yearOfStudy": 3,
+      "category": "AADHAR",
+      "title": "Aadhar Card — Identity Proof",
+      "documentNumber": "XXXX-XXXX-7194",
+      "issuingAuthority": "UIDAI, Government of India",
+      "issueDate": "2020-11-22",
+      "fileName": "24CSE102_Aadhar_Card.svg",
+      "mimeType": "image/svg+xml",
+      "fileSizeBytes": 218400,
+      "verificationStatus": "VERIFIED",
+      "verifiedByName": "Prof. Karthik Rajagopal",
+      "verifiedAt": "2026-08-19T12:00:00Z",
+      "uploadedByUserId": "usr-stu-02",
+      "uploadedByName": "Divya Bharathi S",
+      "uploadedAt": "2026-08-16T10:05:00Z"
+    },
+    {
+      "id": "vdoc-04",
+      "departmentId": "dept-cse",
+      "section": "DOCUMENT",
+      "ownerType": "STUDENT",
+      "ownerId": "stu-03",
+      "ownerCode": "24CSE103",
+      "ownerName": "Pranav Krishnan V",
+      "yearOfStudy": 3,
+      "category": "PASSPORT",
+      "title": "Passport Copy — Front & Back Pages",
+      "documentNumber": "W8302195",
+      "issuingAuthority": "Regional Passport Office, Coimbatore",
+      "issueDate": "2023-07-04",
+      "expiryDate": "2033-07-03",
+      "fileName": "24CSE103_Passport.svg",
+      "mimeType": "image/svg+xml",
+      "fileSizeBytes": 389100,
+      "verificationStatus": "PENDING",
+      "uploadedByUserId": "usr-stu-03",
+      "uploadedByName": "Pranav Krishnan V",
+      "uploadedAt": "2026-11-11T15:40:00Z"
+    },
+    {
+      "id": "vdoc-05",
+      "departmentId": "dept-cse",
+      "section": "DOCUMENT",
+      "ownerType": "STUDENT",
+      "ownerId": "stu-05",
+      "ownerCode": "24CSE105",
+      "ownerName": "Kavin Mukilan T",
+      "yearOfStudy": 3,
+      "category": "AADHAR",
+      "title": "Aadhar Card (Updated Address)",
+      "documentNumber": "XXXX-XXXX-3309",
+      "issuingAuthority": "UIDAI, Government of India",
+      "issueDate": "2025-03-18",
+      "fileName": "24CSE105_Aadhar.svg",
+      "mimeType": "image/svg+xml",
+      "fileSizeBytes": 198000,
+      "verificationStatus": "PENDING",
+      "uploadedByUserId": "usr-hod-01",
+      "uploadedByName": "Kavin Mukilan T",
+      "uploadedAt": "2026-11-12T09:15:00Z"
+    },
+    {
+      "id": "vdoc-06",
+      "departmentId": "dept-cse",
+      "section": "DOCUMENT",
+      "ownerType": "STUDENT",
+      "ownerId": "stu-15",
+      "ownerCode": "26CSE101",
+      "ownerName": "Nithya Sri M",
+      "yearOfStudy": 1,
+      "category": "AADHAR",
+      "title": "Aadhar Card — Admission KYC",
+      "documentNumber": "XXXX-XXXX-9045",
+      "issuingAuthority": "UIDAI, Government of India",
+      "issueDate": "2022-09-08",
+      "fileName": "26CSE101_Aadhar.svg",
+      "mimeType": "image/svg+xml",
+      "fileSizeBytes": 215000,
+      "verificationStatus": "VERIFIED",
+      "verifiedByName": "Dr. Meenakshi Sundaram",
+      "verifiedAt": "2026-08-12T14:00:00Z",
+      "uploadedByUserId": "usr-hod-01",
+      "uploadedByName": "Dr. Meenakshi Sundaram",
+      "uploadedAt": "2026-08-10T11:00:00Z"
+    },
+    {
+      "id": "vdoc-07",
+      "departmentId": "dept-cse",
+      "section": "CERTIFICATE",
+      "ownerType": "STUDENT",
+      "ownerId": "stu-01",
+      "ownerCode": "24CSE101",
+      "ownerName": "Aaravindhan R",
+      "yearOfStudy": 3,
+      "category": "MARKSHEET_12TH",
+      "title": "HSC (+2) Higher Secondary Marksheet",
+      "documentNumber": "TN-HSC-2024-98124",
+      "issuingAuthority": "Directorate of Govt Examinations, Tamil Nadu",
+      "issueDate": "2024-05-06",
+      "fileName": "24CSE101_12th_Marksheet.svg",
+      "mimeType": "image/svg+xml",
+      "fileSizeBytes": 312000,
+      "verificationStatus": "VERIFIED",
+      "verifiedByName": "Dr. Meenakshi Sundaram",
+      "verifiedAt": "2026-08-14T16:20:00Z",
+      "verificationRemarks": "Original marksheet verified at admission cell.",
+      "uploadedByUserId": "usr-stu-01",
+      "uploadedByName": "Aaravindhan R",
+      "uploadedAt": "2026-08-12T10:15:00Z"
+    },
+    {
+      "id": "vdoc-08",
+      "departmentId": "dept-cse",
+      "section": "CERTIFICATE",
+      "ownerType": "STUDENT",
+      "ownerId": "stu-01",
+      "ownerCode": "24CSE101",
+      "ownerName": "Aaravindhan R",
+      "yearOfStudy": 3,
+      "category": "INTERNSHIP_CERT",
+      "title": "Summer Internship Completion — Cloud Engineering",
+      "documentNumber": "ZOHO-INT-2026-441",
+      "issuingAuthority": "Zoho Corporation Pvt. Ltd.",
+      "issueDate": "2026-07-15",
+      "fileName": "24CSE101_Zoho_Internship.svg",
+      "mimeType": "image/svg+xml",
+      "fileSizeBytes": 280500,
+      "verificationStatus": "PENDING",
+      "uploadedByUserId": "usr-stu-01",
+      "uploadedByName": "Aaravindhan R",
+      "uploadedAt": "2026-11-12T11:20:00Z"
+    },
+    {
+      "id": "vdoc-09",
+      "departmentId": "dept-cse",
+      "section": "CERTIFICATE",
+      "ownerType": "STUDENT",
+      "ownerId": "stu-02",
+      "ownerCode": "24CSE102",
+      "ownerName": "Divya Bharathi S",
+      "yearOfStudy": 3,
+      "category": "COURSE_WORKSHOP_CERT",
+      "title": "NPTEL Elite+Gold — Machine Learning Foundations",
+      "documentNumber": "NPTEL26CS88S114",
+      "issuingAuthority": "IIT Madras / NPTEL SWAYAM",
+      "issueDate": "2026-10-25",
+      "fileName": "24CSE102_NPTEL_ML.svg",
+      "mimeType": "image/svg+xml",
+      "fileSizeBytes": 265000,
+      "verificationStatus": "VERIFIED",
+      "verifiedByName": "Prof. Karthik Rajagopal",
+      "verifiedAt": "2026-11-04T09:40:00Z",
+      "verificationRemarks": "Credit transfer eligible under R2024.",
+      "uploadedByUserId": "usr-stu-02",
+      "uploadedByName": "Divya Bharathi S",
+      "uploadedAt": "2026-11-01T17:10:00Z"
+    },
+    {
+      "id": "vdoc-10",
+      "departmentId": "dept-cse",
+      "section": "CERTIFICATE",
+      "ownerType": "STUDENT",
+      "ownerId": "stu-04",
+      "ownerCode": "24CSE104",
+      "ownerName": "Harini Balasubramanian",
+      "yearOfStudy": 3,
+      "category": "BONAFIDE_CERT",
+      "title": "Bonafide Certificate — Educational Loan Purpose",
+      "documentNumber": "VIT-BON-2026-119",
+      "issuingAuthority": "Office of the Principal, Vanguard Tech",
+      "issueDate": "2026-11-08",
+      "fileName": "24CSE104_Bonafide.svg",
+      "mimeType": "image/svg+xml",
+      "fileSizeBytes": 175000,
+      "verificationStatus": "VERIFIED",
+      "verifiedByName": "Dr. Meenakshi Sundaram",
+      "verifiedAt": "2026-11-08T15:00:00Z",
+      "uploadedByUserId": "usr-hod-01",
+      "uploadedByName": "Dr. Meenakshi Sundaram",
+      "uploadedAt": "2026-11-08T15:00:00Z"
+    },
+    {
+      "id": "vdoc-11",
+      "departmentId": "dept-cse",
+      "section": "DOCUMENT",
+      "ownerType": "STAFF",
+      "ownerId": "staff-02",
+      "ownerCode": "VIT-CSE-014",
+      "ownerName": "Prof. Karthik Rajagopal",
+      "category": "AADHAR",
+      "title": "Faculty Aadhar Identity Document",
+      "documentNumber": "XXXX-XXXX-6012",
+      "issuingAuthority": "UIDAI, Government of India",
+      "issueDate": "2019-04-12",
+      "fileName": "VIT_CSE_014_Aadhar.svg",
+      "mimeType": "image/svg+xml",
+      "fileSizeBytes": 210000,
+      "verificationStatus": "VERIFIED",
+      "verifiedByName": "Dr. Meenakshi Sundaram",
+      "verifiedAt": "2026-07-02T10:00:00Z",
+      "uploadedByUserId": "usr-fac-01",
+      "uploadedByName": "Prof. Karthik Rajagopal",
+      "uploadedAt": "2026-07-01T11:30:00Z"
+    },
+    {
+      "id": "vdoc-12",
+      "departmentId": "dept-cse",
+      "section": "DOCUMENT",
+      "ownerType": "STAFF",
+      "ownerId": "staff-02",
+      "ownerCode": "VIT-CSE-014",
+      "ownerName": "Prof. Karthik Rajagopal",
+      "category": "PASSPORT",
+      "title": "Passport — IEEE International Conference Travel",
+      "documentNumber": "U7129480",
+      "issuingAuthority": "Regional Passport Office, Chennai",
+      "issueDate": "2022-06-20",
+      "expiryDate": "2032-06-19",
+      "fileName": "VIT_CSE_014_Passport.svg",
+      "mimeType": "image/svg+xml",
+      "fileSizeBytes": 340000,
+      "verificationStatus": "VERIFIED",
+      "verifiedByName": "Dr. Subramanian Iyer",
+      "verifiedAt": "2026-07-10T14:20:00Z",
+      "uploadedByUserId": "usr-fac-01",
+      "uploadedByName": "Prof. Karthik Rajagopal",
+      "uploadedAt": "2026-07-08T09:15:00Z"
+    },
+    {
+      "id": "vdoc-13",
+      "departmentId": "dept-cse",
+      "section": "CERTIFICATE",
+      "ownerType": "STAFF",
+      "ownerId": "staff-02",
+      "ownerCode": "VIT-CSE-014",
+      "ownerName": "Prof. Karthik Rajagopal",
+      "category": "FDP_EXPERIENCE_CERT",
+      "title": "ATAL FDP — Generative AI & Cloud Systems (2 Weeks)",
+      "documentNumber": "AICTE-ATAL-2026-892",
+      "issuingAuthority": "AICTE Training & Learning Academy",
+      "issueDate": "2026-10-12",
+      "fileName": "VIT_CSE_014_ATAL_FDP.svg",
+      "mimeType": "image/svg+xml",
+      "fileSizeBytes": 295000,
+      "verificationStatus": "PENDING",
+      "uploadedByUserId": "usr-fac-01",
+      "uploadedByName": "Prof. Karthik Rajagopal",
+      "uploadedAt": "2026-11-11T16:45:00Z"
+    },
+    {
+      "id": "vdoc-14",
+      "departmentId": "dept-cse",
+      "section": "CERTIFICATE",
+      "ownerType": "STAFF",
+      "ownerId": "staff-01",
+      "ownerCode": "VIT-CSE-001",
+      "ownerName": "Dr. Meenakshi Sundaram",
+      "category": "DEGREE_CERT",
+      "title": "Ph.D. Degree Certificate — Computer Science & Engg.",
+      "documentNumber": "AU-PHD-2016-1042",
+      "issuingAuthority": "Anna University, Chennai",
+      "issueDate": "2016-12-18",
+      "fileName": "VIT_CSE_001_PhD_Degree.svg",
+      "mimeType": "image/svg+xml",
+      "fileSizeBytes": 420000,
+      "verificationStatus": "VERIFIED",
+      "verifiedByName": "Dr. Subramanian Iyer",
+      "verifiedAt": "2026-06-15T10:00:00Z",
+      "uploadedByUserId": "usr-hod-01",
+      "uploadedByName": "Dr. Meenakshi Sundaram",
+      "uploadedAt": "2026-06-14T11:00:00Z"
+    },
+    {
+      "id": "vdoc-15",
+      "departmentId": "dept-cse",
+      "section": "DOCUMENT",
+      "ownerType": "STAFF",
+      "ownerId": "staff-06",
+      "ownerCode": "VIT-CSE-NT02",
+      "ownerName": "Mr. Senthil Kumar M",
+      "category": "AADHAR",
+      "title": "Lab Staff Aadhar Card",
+      "documentNumber": "XXXX-XXXX-2278",
+      "issuingAuthority": "UIDAI, Government of India",
+      "issueDate": "2020-01-19",
+      "fileName": "VIT_CSE_NT02_Aadhar.svg",
+      "mimeType": "image/svg+xml",
+      "fileSizeBytes": 189000,
+      "verificationStatus": "VERIFIED",
+      "verifiedByName": "Dr. Meenakshi Sundaram",
+      "verifiedAt": "2026-07-05T12:15:00Z",
+      "uploadedByUserId": "usr-staff-06",
+      "uploadedByName": "Mr. Senthil Kumar M",
+      "uploadedAt": "2026-07-04T09:30:00Z"
+    },
+    {
+      "id": "vdoc-ece-01",
+      "departmentId": "dept-ece",
+      "section": "DOCUMENT",
+      "ownerType": "STUDENT",
+      "ownerId": "stu-ece-01",
+      "ownerCode": "24ECE101",
+      "ownerName": "Divya Dharshini S",
+      "yearOfStudy": 3,
+      "category": "AADHAR",
+      "title": "Aadhar Card — Identity Verification",
+      "documentNumber": "XXXX-XXXX-5518",
+      "issuingAuthority": "UIDAI, Government of India",
+      "issueDate": "2021-08-24",
+      "fileName": "24ECE101_Aadhar.svg",
+      "mimeType": "image/svg+xml",
+      "fileSizeBytes": 204800,
+      "verificationStatus": "VERIFIED",
+      "verifiedByName": "Dr. Aravind Swaminathan",
+      "verifiedAt": "2026-08-18T11:00:00Z",
+      "uploadedByUserId": "usr-ece-stu-01",
+      "uploadedByName": "Divya Dharshini S",
+      "uploadedAt": "2026-08-16T09:20:00Z"
+    },
+    {
+      "id": "vdoc-ece-02",
+      "departmentId": "dept-ece",
+      "section": "DOCUMENT",
+      "ownerType": "STUDENT",
+      "ownerId": "stu-ece-01",
+      "ownerCode": "24ECE101",
+      "ownerName": "Divya Dharshini S",
+      "yearOfStudy": 3,
+      "category": "PASSPORT",
+      "title": "Passport — Exchange & Placement Record",
+      "documentNumber": "V6420188",
+      "issuingAuthority": "Regional Passport Office, Madurai",
+      "issueDate": "2023-11-10",
+      "expiryDate": "2033-11-09",
+      "fileName": "24ECE101_Passport.svg",
+      "mimeType": "image/svg+xml",
+      "fileSizeBytes": 360000,
+      "verificationStatus": "PENDING",
+      "uploadedByUserId": "usr-ece-stu-01",
+      "uploadedByName": "Divya Dharshini S",
+      "uploadedAt": "2026-11-12T10:15:00Z"
+    },
+    {
+      "id": "vdoc-ece-03",
+      "departmentId": "dept-ece",
+      "section": "CERTIFICATE",
+      "ownerType": "STUDENT",
+      "ownerId": "stu-ece-01",
+      "ownerCode": "24ECE101",
+      "ownerName": "Divya Dharshini S",
+      "yearOfStudy": 3,
+      "category": "INTERNSHIP_CERT",
+      "title": "VLSI Design Internship — Texas Instruments Partner Lab",
+      "documentNumber": "TI-VLSI-2026-109",
+      "issuingAuthority": "TI University Program Partner Center",
+      "issueDate": "2026-07-28",
+      "fileName": "24ECE101_VLSI_Internship.svg",
+      "mimeType": "image/svg+xml",
+      "fileSizeBytes": 274000,
+      "verificationStatus": "VERIFIED",
+      "verifiedByName": "Prof. Priya Narayanan",
+      "verifiedAt": "2026-09-05T14:30:00Z",
+      "uploadedByUserId": "usr-ece-stu-01",
+      "uploadedByName": "Divya Dharshini S",
+      "uploadedAt": "2026-09-02T16:10:00Z"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "sub-cs3501",
+      "departmentId": "dept-cse",
+      "programmeId": "prog-be-cse",
+      "regulationId": "reg-2023",
+      "code": "CS3501",
+      "title": "Distributed Systems & Cloud Computing",
+      "category": "CORE",
+      "semester": 5,
+      "credits": 4,
+      "weeklyHours": 4,
+      "theoryHours": 4,
+      "practicalHours": 0,
+      "facultyStaffId": "staff-01",
+      "sectionId": "sec-5a",
+      "courseOutcomes": [
+        "CO1: Distributed clock synchronization",
+        "CO2: Consensus protocols (Raft/Paxos)",
+        "CO3: Microservice fault tolerance"
+      ],
+      "syllabusUnits": [
+        {
+          "unitNumber": 1,
+          "title": "Distributed Architecture & Logical Clocks",
+          "totalTopics": 8,
+          "completedTopics": 8,
+          "targetDate": "2026-08-20"
+        },
+        {
+          "unitNumber": 2,
+          "title": "Replication & Consensus Protocols",
+          "totalTopics": 10,
+          "completedTopics": 10,
+          "targetDate": "2026-09-18"
+        },
+        {
+          "unitNumber": 3,
+          "title": "Distributed Storage & Transactions",
+          "totalTopics": 9,
+          "completedTopics": 7,
+          "targetDate": "2026-10-25"
+        },
+        {
+          "unitNumber": 4,
+          "title": "Container Orchestration & Serverless",
+          "totalTopics": 8,
+          "completedTopics": 4,
+          "targetDate": "2026-11-22"
+        }
+      ],
+      "active": true
+    },
+    {
+      "id": "sub-cs3502",
+      "departmentId": "dept-cse",
+      "programmeId": "prog-be-cse",
+      "regulationId": "reg-2023",
+      "code": "CS3502",
+      "title": "Machine Learning Foundations",
+      "category": "CORE",
+      "semester": 5,
+      "credits": 4,
+      "weeklyHours": 4,
+      "theoryHours": 4,
+      "practicalHours": 0,
+      "facultyStaffId": "staff-02",
+      "sectionId": "sec-5a",
+      "courseOutcomes": [
+        "CO1: Supervised regression & classification",
+        "CO2: Ensemble methods & boosting",
+        "CO3: Unsupervised clustering & PCA"
+      ],
+      "syllabusUnits": [
+        {
+          "unitNumber": 1,
+          "title": "Statistical Learning & Linear Models",
+          "totalTopics": 8,
+          "completedTopics": 8,
+          "targetDate": "2026-08-18"
+        },
+        {
+          "unitNumber": 2,
+          "title": "Decision Trees & Ensemble Boosting",
+          "totalTopics": 8,
+          "completedTopics": 8,
+          "targetDate": "2026-09-15"
+        },
+        {
+          "unitNumber": 3,
+          "title": "Support Vector Machines & Kernel Tricks",
+          "totalTopics": 8,
+          "completedTopics": 8,
+          "targetDate": "2026-10-15"
+        },
+        {
+          "unitNumber": 4,
+          "title": "Neural Networks & Model Evaluation",
+          "totalTopics": 10,
+          "completedTopics": 6,
+          "targetDate": "2026-11-20"
+        }
+      ],
+      "active": true
+    },
+    {
+      "id": "sub-cs3503",
+      "departmentId": "dept-cse",
+      "programmeId": "prog-be-cse",
+      "regulationId": "reg-2023",
+      "code": "CS3503",
+      "title": "Computer Networks & Security",
+      "category": "CORE",
+      "semester": 5,
+      "credits": 3,
+      "weeklyHours": 4,
+      "theoryHours": 4,
+      "practicalHours": 0,
+      "facultyStaffId": "staff-03",
+      "sectionId": "sec-5a",
+      "courseOutcomes": [
+        "CO1: TCP congestion control",
+        "CO2: Cryptographic primitives",
+        "CO3: Zero-trust TLS & firewalls"
+      ],
+      "syllabusUnits": [
+        {
+          "unitNumber": 1,
+          "title": "Transport Layer & Congestion Control",
+          "totalTopics": 8,
+          "completedTopics": 8,
+          "targetDate": "2026-08-22"
+        },
+        {
+          "unitNumber": 2,
+          "title": "Routing Protocols & SDN",
+          "totalTopics": 8,
+          "completedTopics": 7,
+          "targetDate": "2026-09-25"
+        },
+        {
+          "unitNumber": 3,
+          "title": "Public Key Cryptography & TLS 1.3",
+          "totalTopics": 10,
+          "completedTopics": 5,
+          "targetDate": "2026-10-30"
+        }
+      ],
+      "active": true
+    },
+    {
+      "id": "sub-cs3511",
+      "departmentId": "dept-cse",
+      "programmeId": "prog-be-cse",
+      "regulationId": "reg-2023",
+      "code": "CS3511",
+      "title": "Machine Learning & Cloud Lab",
+      "category": "PRACTICAL",
+      "semester": 5,
+      "credits": 2,
+      "weeklyHours": 3,
+      "theoryHours": 0,
+      "practicalHours": 3,
+      "facultyStaffId": "staff-02",
+      "sectionId": "sec-5a",
+      "courseOutcomes": [
+        "CO1: Build reproducible ML pipelines",
+        "CO2: Deploy containerized inference APIs"
+      ],
+      "syllabusUnits": [
+        {
+          "unitNumber": 1,
+          "title": "Scikit-Learn & Feature Engineering Labs",
+          "totalTopics": 6,
+          "completedTopics": 6,
+          "targetDate": "2026-09-10"
+        },
+        {
+          "unitNumber": 2,
+          "title": "Docker & Kubernetes Inference Deployment",
+          "totalTopics": 6,
+          "completedTopics": 4,
+          "targetDate": "2026-11-18"
+        }
+      ],
+      "active": true
+    },
+    {
+      "id": "sub-cs3301",
+      "departmentId": "dept-cse",
+      "programmeId": "prog-be-cse",
+      "regulationId": "reg-2025",
+      "code": "CS3301",
+      "title": "Database Management Systems",
+      "category": "CORE",
+      "semester": 3,
+      "credits": 4,
+      "weeklyHours": 4,
+      "theoryHours": 4,
+      "practicalHours": 0,
+      "facultyStaffId": "staff-04",
+      "sectionId": "sec-3a",
+      "courseOutcomes": [
+        "CO1: Relational algebra & SQL optimization",
+        "CO2: B+ Tree indexing & ACID transactions"
+      ],
+      "syllabusUnits": [
+        {
+          "unitNumber": 1,
+          "title": "ER Modeling & Relational Normalization",
+          "totalTopics": 8,
+          "completedTopics": 8,
+          "targetDate": "2026-08-25"
+        },
+        {
+          "unitNumber": 2,
+          "title": "Query Processing & Transaction Isolation",
+          "totalTopics": 8,
+          "completedTopics": 6,
+          "targetDate": "2026-10-20"
+        }
+      ],
+      "active": true
+    },
+    {
+      "id": "sub-cs3701",
+      "departmentId": "dept-cse",
+      "programmeId": "prog-be-cse",
+      "regulationId": "reg-2023",
+      "code": "CS3701",
+      "title": "Compiler Engineering",
+      "category": "ELECTIVE",
+      "semester": 7,
+      "credits": 3,
+      "weeklyHours": 4,
+      "theoryHours": 4,
+      "practicalHours": 0,
+      "facultyStaffId": "staff-05",
+      "sectionId": "sec-7a",
+      "courseOutcomes": [
+        "CO1: Lexical & LR(1) parsing",
+        "CO2: SSA intermediate code optimization"
+      ],
+      "syllabusUnits": [
+        {
+          "unitNumber": 1,
+          "title": "Lexical & Syntax Analysis",
+          "totalTopics": 8,
+          "completedTopics": 8,
+          "targetDate": "2026-08-28"
+        },
+        {
+          "unitNumber": 2,
+          "title": "LLVM IR & Register Allocation",
+          "totalTopics": 8,
+          "completedTopics": 7,
+          "targetDate": "2026-10-28"
+        }
+      ],
+      "active": true
+    },
+    {
+      "id": "sub-cs3101",
+      "departmentId": "dept-cse",
+      "programmeId": "prog-be-cse",
+      "regulationId": "reg-2025",
+      "code": "CS3101",
+      "title": "Problem Solving & Python Programming",
+      "category": "CORE",
+      "semester": 1,
+      "credits": 4,
+      "weeklyHours": 4,
+      "theoryHours": 3,
+      "practicalHours": 1,
+      "facultyStaffId": "staff-04",
+      "sectionId": "sec-1a",
+      "courseOutcomes": [
+        "CO1: Algorithmic decomposition",
+        "CO2: Modular Python data structures"
+      ],
+      "syllabusUnits": [
+        {
+          "unitNumber": 1,
+          "title": "Control Flow & Algorithmic Problem Solving",
+          "totalTopics": 8,
+          "completedTopics": 8,
+          "targetDate": "2026-09-01"
+        },
+        {
+          "unitNumber": 2,
+          "title": "Lists, Dictionaries & File Pipelines",
+          "totalTopics": 8,
+          "completedTopics": 6,
+          "targetDate": "2026-10-25"
+        }
+      ],
+      "active": true
+    },
+    {
+      "id": "sub-ec3501",
+      "departmentId": "dept-ece",
+      "programmeId": "prog-be-ece",
+      "regulationId": "reg-2023",
+      "code": "EC3501",
+      "title": "VLSI Design & CMOS Systems",
+      "category": "CORE",
+      "semester": 5,
+      "credits": 4,
+      "weeklyHours": 4,
+      "theoryHours": 4,
+      "practicalHours": 0,
+      "facultyStaffId": "staff-ece-01",
+      "sectionId": "sec-ece-5a",
+      "courseOutcomes": [
+        "CO1: MOSFET inverter characterization",
+        "CO2: Static timing & RTL synthesis"
+      ],
+      "syllabusUnits": [
+        {
+          "unitNumber": 1,
+          "title": "MOS Transistor Theory & Scaling",
+          "totalTopics": 8,
+          "completedTopics": 8,
+          "targetDate": "2026-08-24"
+        },
+        {
+          "unitNumber": 2,
+          "title": "Combinational & Sequential CMOS Logic",
+          "totalTopics": 8,
+          "completedTopics": 6,
+          "targetDate": "2026-10-22"
+        }
+      ],
+      "active": true
+    },
+    {
+      "id": "sub-ec3301",
+      "departmentId": "dept-ece",
+      "programmeId": "prog-be-ece",
+      "regulationId": "reg-2025",
+      "code": "EC3301",
+      "title": "Signals, Systems & Digital Communication",
+      "category": "CORE",
+      "semester": 3,
+      "credits": 4,
+      "weeklyHours": 4,
+      "theoryHours": 4,
+      "practicalHours": 0,
+      "facultyStaffId": "staff-ece-02",
+      "sectionId": "sec-ece-3a",
+      "courseOutcomes": [
+        "CO1: Laplace & Z-transform analysis",
+        "CO2: QAM/PSK modulation schemes"
+      ],
+      "syllabusUnits": [
+        {
+          "unitNumber": 1,
+          "title": "Continuous & Discrete Time LTI Systems",
+          "totalTopics": 8,
+          "completedTopics": 7,
+          "targetDate": "2026-09-10"
+        },
+        {
+          "unitNumber": 2,
+          "title": "Baseband & Bandpass Digital Modulation",
+          "totalTopics": 8,
+          "completedTopics": 5,
+          "targetDate": "2026-10-28"
+        }
+      ],
+      "active": true
+    }
+  ],
+  "timetableSlots": [
+    {
+      "id": "tt-01",
+      "departmentId": "dept-cse",
+      "academicYearId": "ay-2026-27",
+      "sectionId": "sec-5a",
+      "subjectId": "sub-cs3502",
+      "facultyStaffId": "staff-02",
+      "day": "Mon",
+      "period": 1,
+      "startTime": "09:00",
+      "endTime": "09:55",
+      "roomCode": "CS-301",
+      "slotType": "THEORY",
+      "published": true
+    },
+    {
+      "id": "tt-02",
+      "departmentId": "dept-cse",
+      "academicYearId": "ay-2026-27",
+      "sectionId": "sec-5a",
+      "subjectId": "sub-cs3501",
+      "facultyStaffId": "staff-01",
+      "day": "Mon",
+      "period": 2,
+      "startTime": "10:00",
+      "endTime": "10:55",
+      "roomCode": "CS-301",
+      "slotType": "THEORY",
+      "published": true
+    },
+    {
+      "id": "tt-03",
+      "departmentId": "dept-cse",
+      "academicYearId": "ay-2026-27",
+      "sectionId": "sec-5a",
+      "subjectId": "sub-cs3503",
+      "facultyStaffId": "staff-03",
+      "day": "Mon",
+      "period": 3,
+      "startTime": "11:15",
+      "endTime": "12:10",
+      "roomCode": "CS-301",
+      "slotType": "THEORY",
+      "published": true
+    },
+    {
+      "id": "tt-04",
+      "departmentId": "dept-cse",
+      "academicYearId": "ay-2026-27",
+      "sectionId": "sec-5a",
+      "subjectId": "sub-cs3511",
+      "facultyStaffId": "staff-02",
+      "day": "Tue",
+      "period": 1,
+      "startTime": "09:00",
+      "endTime": "10:55",
+      "roomCode": "AI-LAB-1",
+      "slotType": "PRACTICAL",
+      "published": true
+    },
+    {
+      "id": "tt-05",
+      "departmentId": "dept-cse",
+      "academicYearId": "ay-2026-27",
+      "sectionId": "sec-5a",
+      "subjectId": "sub-cs3503",
+      "facultyStaffId": "staff-03",
+      "day": "Tue",
+      "period": 3,
+      "startTime": "11:15",
+      "endTime": "12:10",
+      "roomCode": "CS-301",
+      "slotType": "THEORY",
+      "published": true
+    },
+    {
+      "id": "tt-06",
+      "departmentId": "dept-cse",
+      "academicYearId": "ay-2026-27",
+      "sectionId": "sec-5a",
+      "subjectId": "sub-cs3501",
+      "facultyStaffId": "staff-01",
+      "day": "Wed",
+      "period": 1,
+      "startTime": "09:00",
+      "endTime": "09:55",
+      "roomCode": "CS-301",
+      "slotType": "THEORY",
+      "published": true
+    },
+    {
+      "id": "tt-07",
+      "departmentId": "dept-cse",
+      "academicYearId": "ay-2026-27",
+      "sectionId": "sec-5a",
+      "subjectId": "sub-cs3502",
+      "facultyStaffId": "staff-02",
+      "day": "Wed",
+      "period": 2,
+      "startTime": "10:00",
+      "endTime": "10:55",
+      "roomCode": "CS-301",
+      "slotType": "TUTORIAL",
+      "published": true
+    },
+    {
+      "id": "tt-08",
+      "departmentId": "dept-cse",
+      "academicYearId": "ay-2026-27",
+      "sectionId": "sec-5a",
+      "subjectId": "sub-cs3503",
+      "facultyStaffId": "staff-03",
+      "day": "Thu",
+      "period": 2,
+      "startTime": "10:00",
+      "endTime": "10:55",
+      "roomCode": "CS-301",
+      "slotType": "THEORY",
+      "published": true
+    },
+    {
+      "id": "tt-09",
+      "departmentId": "dept-cse",
+      "academicYearId": "ay-2026-27",
+      "sectionId": "sec-5a",
+      "subjectId": "sub-cs3502",
+      "facultyStaffId": "staff-02",
+      "day": "Fri",
+      "period": 1,
+      "startTime": "09:00",
+      "endTime": "09:55",
+      "roomCode": "CS-301",
+      "slotType": "THEORY",
+      "published": true
+    },
+    {
+      "id": "tt-10",
+      "departmentId": "dept-cse",
+      "academicYearId": "ay-2026-27",
+      "sectionId": "sec-5a",
+      "subjectId": "sub-cs3501",
+      "facultyStaffId": "staff-01",
+      "day": "Fri",
+      "period": 3,
+      "startTime": "11:15",
+      "endTime": "12:10",
+      "roomCode": "CS-301",
+      "slotType": "THEORY",
+      "published": true
+    },
+    {
+      "id": "tt-11",
+      "departmentId": "dept-cse",
+      "academicYearId": "ay-2026-27",
+      "sectionId": "sec-3a",
+      "subjectId": "sub-cs3301",
+      "facultyStaffId": "staff-04",
+      "day": "Mon",
+      "period": 1,
+      "startTime": "09:00",
+      "endTime": "09:55",
+      "roomCode": "CS-204",
+      "slotType": "THEORY",
+      "published": true
+    },
+    {
+      "id": "tt-12",
+      "departmentId": "dept-cse",
+      "academicYearId": "ay-2026-27",
+      "sectionId": "sec-7a",
+      "subjectId": "sub-cs3701",
+      "facultyStaffId": "staff-05",
+      "day": "Tue",
+      "period": 2,
+      "startTime": "10:00",
+      "endTime": "10:55",
+      "roomCode": "CS-401",
+      "slotType": "THEORY",
+      "published": true
+    },
+    {
+      "id": "tt-13",
+      "departmentId": "dept-cse",
+      "academicYearId": "ay-2026-27",
+      "sectionId": "sec-1a",
+      "subjectId": "sub-cs3101",
+      "facultyStaffId": "staff-04",
+      "day": "Wed",
+      "period": 2,
+      "startTime": "10:00",
+      "endTime": "10:55",
+      "roomCode": "CS-101",
+      "slotType": "THEORY",
+      "published": true
+    },
+    {
+      "id": "tt-ece-01",
+      "departmentId": "dept-ece",
+      "academicYearId": "ay-2026-27",
+      "sectionId": "sec-ece-5a",
+      "subjectId": "sub-ec3501",
+      "facultyStaffId": "staff-ece-01",
+      "day": "Mon",
+      "period": 1,
+      "startTime": "09:00",
+      "endTime": "09:55",
+      "roomCode": "EC-301",
+      "slotType": "THEORY",
+      "published": true
+    },
+    {
+      "id": "tt-ece-02",
+      "departmentId": "dept-ece",
+      "academicYearId": "ay-2026-27",
+      "sectionId": "sec-ece-3a",
+      "subjectId": "sub-ec3301",
+      "facultyStaffId": "staff-ece-02",
+      "day": "Tue",
+      "period": 1,
+      "startTime": "09:00",
+      "endTime": "09:55",
+      "roomCode": "EC-201",
+      "slotType": "THEORY",
+      "published": true
+    }
+  ],
+  "attendanceSessions": [
+    {
+      "id": "att-01",
+      "departmentId": "dept-cse",
+      "subjectId": "sub-cs3502",
+      "sectionId": "sec-5a",
+      "facultyStaffId": "staff-02",
+      "date": "2026-10-19",
+      "period": 1,
+      "topicCovered": "SVM Hyperplane Optimization",
+      "submittedAt": "2026-10-19T10:05:00Z",
+      "submittedBy": "Prof. Karthik Ramanathan",
+      "records": [
+        {
+          "studentId": "stu-01",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-02",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-03",
+          "status": "ABSENT"
+        },
+        {
+          "studentId": "stu-04",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-05",
+          "status": "ABSENT"
+        },
+        {
+          "studentId": "stu-06",
+          "status": "PRESENT"
+        }
+      ]
+    },
+    {
+      "id": "att-02",
+      "departmentId": "dept-cse",
+      "subjectId": "sub-cs3502",
+      "sectionId": "sec-5a",
+      "facultyStaffId": "staff-02",
+      "date": "2026-10-26",
+      "period": 1,
+      "topicCovered": "Kernel Methods & RBF",
+      "submittedAt": "2026-10-26T10:02:00Z",
+      "submittedBy": "Prof. Karthik Ramanathan",
+      "records": [
+        {
+          "studentId": "stu-01",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-02",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-03",
+          "status": "ABSENT"
+        },
+        {
+          "studentId": "stu-04",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-05",
+          "status": "ABSENT"
+        },
+        {
+          "studentId": "stu-06",
+          "status": "PRESENT"
+        }
+      ]
+    },
+    {
+      "id": "att-03",
+      "departmentId": "dept-cse",
+      "subjectId": "sub-cs3502",
+      "sectionId": "sec-5a",
+      "facultyStaffId": "staff-02",
+      "date": "2026-11-02",
+      "period": 1,
+      "topicCovered": "Backpropagation in Deep MLPs",
+      "submittedAt": "2026-11-02T10:01:00Z",
+      "submittedBy": "Prof. Karthik Ramanathan",
+      "records": [
+        {
+          "studentId": "stu-01",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-02",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-03",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-04",
+          "status": "ON_DUTY"
+        },
+        {
+          "studentId": "stu-05",
+          "status": "ABSENT"
+        },
+        {
+          "studentId": "stu-06",
+          "status": "PRESENT"
+        }
+      ]
+    },
+    {
+      "id": "att-04",
+      "departmentId": "dept-cse",
+      "subjectId": "sub-cs3502",
+      "sectionId": "sec-5a",
+      "facultyStaffId": "staff-02",
+      "date": "2026-11-09",
+      "period": 1,
+      "topicCovered": "ROC-AUC & Precision-Recall Curves",
+      "submittedAt": "2026-11-09T10:04:00Z",
+      "submittedBy": "Prof. Karthik Ramanathan",
+      "records": [
+        {
+          "studentId": "stu-01",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-02",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-03",
+          "status": "ABSENT"
+        },
+        {
+          "studentId": "stu-04",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-05",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-06",
+          "status": "PRESENT"
+        }
+      ]
+    },
+    {
+      "id": "att-05",
+      "departmentId": "dept-cse",
+      "subjectId": "sub-cs3501",
+      "sectionId": "sec-5a",
+      "facultyStaffId": "staff-01",
+      "date": "2026-10-21",
+      "period": 2,
+      "topicCovered": "Raft Leader Election",
+      "submittedAt": "2026-10-21T11:00:00Z",
+      "submittedBy": "Dr. Meenakshi Sundaram",
+      "records": [
+        {
+          "studentId": "stu-01",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-02",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-03",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-04",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-05",
+          "status": "ABSENT"
+        },
+        {
+          "studentId": "stu-06",
+          "status": "PRESENT"
+        }
+      ]
+    },
+    {
+      "id": "att-06",
+      "departmentId": "dept-cse",
+      "subjectId": "sub-cs3501",
+      "sectionId": "sec-5a",
+      "facultyStaffId": "staff-01",
+      "date": "2026-10-28",
+      "period": 2,
+      "topicCovered": "Two-Phase Commit & Saga Pattern",
+      "submittedAt": "2026-10-28T11:02:00Z",
+      "submittedBy": "Dr. Meenakshi Sundaram",
+      "records": [
+        {
+          "studentId": "stu-01",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-02",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-03",
+          "status": "ABSENT"
+        },
+        {
+          "studentId": "stu-04",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-05",
+          "status": "ABSENT"
+        },
+        {
+          "studentId": "stu-06",
+          "status": "PRESENT"
+        }
+      ]
+    },
+    {
+      "id": "att-07",
+      "departmentId": "dept-cse",
+      "subjectId": "sub-cs3503",
+      "sectionId": "sec-5a",
+      "facultyStaffId": "staff-03",
+      "date": "2026-11-05",
+      "period": 3,
+      "topicCovered": "TLS 1.3 Handshake Protocol",
+      "submittedAt": "2026-11-05T12:15:00Z",
+      "submittedBy": "Dr. Ananya Krishnan",
+      "records": [
+        {
+          "studentId": "stu-01",
+          "status": "ON_DUTY"
+        },
+        {
+          "studentId": "stu-02",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-03",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-04",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-05",
+          "status": "ABSENT"
+        },
+        {
+          "studentId": "stu-06",
+          "status": "ABSENT"
+        }
+      ]
+    },
+    {
+      "id": "att-08",
+      "departmentId": "dept-cse",
+      "subjectId": "sub-cs3511",
+      "sectionId": "sec-5a",
+      "facultyStaffId": "staff-02",
+      "date": "2026-11-10",
+      "period": 1,
+      "topicCovered": "Containerizing FastAPI Inference Service",
+      "submittedAt": "2026-11-10T11:02:00Z",
+      "submittedBy": "Prof. Karthik Ramanathan",
+      "records": [
+        {
+          "studentId": "stu-01",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-02",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-03",
+          "status": "ABSENT"
+        },
+        {
+          "studentId": "stu-04",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-05",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-06",
+          "status": "PRESENT"
+        }
+      ]
+    },
+    {
+      "id": "att-09",
+      "departmentId": "dept-cse",
+      "subjectId": "sub-cs3301",
+      "sectionId": "sec-3a",
+      "facultyStaffId": "staff-04",
+      "date": "2026-11-09",
+      "period": 1,
+      "topicCovered": "MVCC & Serializable Isolation",
+      "submittedAt": "2026-11-09T10:00:00Z",
+      "submittedBy": "Prof. Vigneshwaran Nair",
+      "records": [
+        {
+          "studentId": "stu-11",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-12",
+          "status": "PRESENT"
+        }
+      ]
+    },
+    {
+      "id": "att-10",
+      "departmentId": "dept-cse",
+      "subjectId": "sub-cs3101",
+      "sectionId": "sec-1a",
+      "facultyStaffId": "staff-04",
+      "date": "2026-11-10",
+      "period": 2,
+      "topicCovered": "Python Dictionaries & Recursion",
+      "submittedAt": "2026-11-10T11:00:00Z",
+      "submittedBy": "Prof. Vigneshwaran Nair",
+      "records": [
+        {
+          "studentId": "stu-15",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-16",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-17",
+          "status": "ABSENT"
+        }
+      ]
+    },
+    {
+      "id": "att-11",
+      "departmentId": "dept-cse",
+      "subjectId": "sub-cs3101",
+      "sectionId": "sec-1a",
+      "facultyStaffId": "staff-04",
+      "date": "2026-11-11",
+      "period": 2,
+      "topicCovered": "File Streams & Exception Handling",
+      "submittedAt": "2026-11-11T11:00:00Z",
+      "submittedBy": "Prof. Vigneshwaran Nair",
+      "records": [
+        {
+          "studentId": "stu-15",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-16",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-17",
+          "status": "PRESENT"
+        }
+      ]
+    },
+    {
+      "id": "att-ece-01",
+      "departmentId": "dept-ece",
+      "subjectId": "sub-ec3501",
+      "sectionId": "sec-ece-5a",
+      "facultyStaffId": "staff-ece-01",
+      "date": "2026-11-09",
+      "period": 1,
+      "topicCovered": "CMOS Inverter Delay Modeling",
+      "submittedAt": "2026-11-09T10:00:00Z",
+      "submittedBy": "Dr. Aravind Swaminathan",
+      "records": [
+        {
+          "studentId": "stu-ece-01",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-ece-02",
+          "status": "ABSENT"
+        }
+      ]
+    },
+    {
+      "id": "att-ece-02",
+      "departmentId": "dept-ece",
+      "subjectId": "sub-ec3501",
+      "sectionId": "sec-ece-5a",
+      "facultyStaffId": "staff-ece-01",
+      "date": "2026-11-11",
+      "period": 1,
+      "topicCovered": "Static Timing & Setup Slack",
+      "submittedAt": "2026-11-11T10:00:00Z",
+      "submittedBy": "Dr. Aravind Swaminathan",
+      "records": [
+        {
+          "studentId": "stu-ece-01",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-ece-02",
+          "status": "PRESENT"
+        }
+      ]
+    },
+    {
+      "id": "att-ece-03",
+      "departmentId": "dept-ece",
+      "subjectId": "sub-ec3301",
+      "sectionId": "sec-ece-3a",
+      "facultyStaffId": "staff-ece-02",
+      "date": "2026-11-10",
+      "period": 1,
+      "topicCovered": "Sampling Theorem & Nyquist Rate",
+      "submittedAt": "2026-11-10T10:00:00Z",
+      "submittedBy": "Prof. Priya Narayanan",
+      "records": [
+        {
+          "studentId": "stu-ece-05",
+          "status": "PRESENT"
+        },
+        {
+          "studentId": "stu-ece-06",
+          "status": "PRESENT"
+        }
+      ]
+    }
+  ],
+  "attendanceCorrections": [
+    {
+      "id": "ac-01",
+      "departmentId": "dept-cse",
+      "sessionId": "att-04",
+      "studentId": "stu-03",
+      "subjectId": "sub-cs3502",
+      "date": "2026-11-09",
+      "currentStatus": "ABSENT",
+      "requestedStatus": "ON_DUTY",
+      "reason": "Represented college at Smart India Hackathon Nodal Finals (OD Letter #SIH-2026-14 attached).",
+      "requestedByUserId": "usr-faculty-02",
+      "requestedByName": "Prof. Karthik Ramanathan",
+      "status": "SUBMITTED",
+      "createdAt": "2026-11-10T14:20:00Z"
+    }
+  ],
+  "requests": [
+    {
+      "id": "req-01",
+      "requestNumber": "REQ-2026-0142",
+      "departmentId": "dept-cse",
+      "type": "STUDENT_OD",
+      "requesterUserId": "usr-student-01",
+      "requesterName": "Aaravindhan Selvam",
+      "requesterRole": "STUDENT",
+      "studentId": "stu-01",
+      "title": "On-Duty for IEEE Cloud Computing Symposium",
+      "description": "Presenting paper on Fault-Tolerant Microservices at PSG Tech, Coimbatore.",
+      "fromDate": "2026-11-18",
+      "toDate": "2026-11-19",
+      "status": "SUBMITTED",
+      "assignedApproverRole": "HOD",
+      "createdAt": "2026-11-11T10:15:00Z",
+      "updatedAt": "2026-11-11T10:15:00Z",
+      "history": [
+        {
+          "timestamp": "2026-11-11T10:15:00Z",
+          "actorName": "Aaravindhan Selvam",
+          "action": "SUBMITTED",
+          "comment": "Attached IEEE acceptance letter."
+        }
+      ]
+    },
+    {
+      "id": "req-02",
+      "requestNumber": "REQ-2026-0139",
+      "departmentId": "dept-cse",
+      "type": "BONAFIDE_CERTIFICATE",
+      "requesterUserId": "usr-student-01",
+      "requesterName": "Aaravindhan Selvam",
+      "requesterRole": "STUDENT",
+      "studentId": "stu-01",
+      "title": "Bonafide Certificate for Summer Internship Visa / Bank",
+      "description": "Required for Zoho Corp industrial internship onboarding.",
+      "status": "APPROVED",
+      "assignedApproverRole": "HOD",
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-05T15:30:00Z",
+      "history": [
+        {
+          "timestamp": "2026-11-04T09:00:00Z",
+          "actorName": "Aaravindhan Selvam",
+          "action": "SUBMITTED",
+          "comment": "Submitted request."
+        },
+        {
+          "timestamp": "2026-11-05T15:30:00Z",
+          "actorName": "Dr. Meenakshi Sundaram",
+          "action": "APPROVED",
+          "comment": "Verified enrollment. Certificate ID BON-CSE-2026-88 issued."
+        }
+      ]
+    },
+    {
+      "id": "req-03",
+      "requestNumber": "REQ-2026-0145",
+      "departmentId": "dept-cse",
+      "type": "STAFF_LEAVE",
+      "requesterUserId": "usr-faculty-02",
+      "requesterName": "Prof. Karthik Ramanathan",
+      "requesterRole": "FACULTY",
+      "staffId": "staff-02",
+      "leaveCategory": "OD",
+      "daysCount": 1,
+      "title": "Academic Duty Leave — NBA Mock Audit Panel",
+      "description": "Invited as external academic observer; alternate faculty arranged for Period 1.",
+      "fromDate": "2026-11-20",
+      "toDate": "2026-11-20",
+      "status": "UNDER_REVIEW",
+      "assignedApproverRole": "HOD",
+      "createdAt": "2026-11-12T11:20:00Z",
+      "updatedAt": "2026-11-12T11:20:00Z",
+      "history": [
+        {
+          "timestamp": "2026-11-12T11:20:00Z",
+          "actorName": "Prof. Karthik Ramanathan",
+          "action": "SUBMITTED",
+          "comment": "Substitution arranged with Prof. Divya Bharathi."
+        }
+      ]
+    },
+    {
+      "id": "req-04",
+      "requestNumber": "REQ-2026-0148",
+      "departmentId": "dept-cse",
+      "type": "INTERNSHIP_PERMISSION",
+      "requesterUserId": "usr-student-01",
+      "requesterName": "Harini Balasubramanian",
+      "requesterRole": "STUDENT",
+      "studentId": "stu-02",
+      "title": "Winter Research Internship Permission (IIT Madras)",
+      "description": "4-week winter research fellowship in Applied ML Systems.",
+      "fromDate": "2026-12-07",
+      "toDate": "2027-01-04",
+      "status": "SUBMITTED",
+      "assignedApproverRole": "HOD",
+      "createdAt": "2026-11-12T16:10:00Z",
+      "updatedAt": "2026-11-12T16:10:00Z",
+      "history": [
+        {
+          "timestamp": "2026-11-12T16:10:00Z",
+          "actorName": "Harini Balasubramanian",
+          "action": "SUBMITTED",
+          "comment": "Faculty mentor endorsement attached."
+        }
+      ]
+    },
+    {
+      "id": "req-05",
+      "requestNumber": "REQ-2026-0151",
+      "departmentId": "dept-cse",
+      "type": "STAFF_LEAVE",
+      "requesterUserId": "usr-staff-06",
+      "requesterName": "Mr. Senthil Kumar M",
+      "requesterRole": "NON_TEACHING_STAFF",
+      "staffId": "staff-06",
+      "leaveCategory": "CL",
+      "daysCount": 2,
+      "title": "Casual Leave — Family Function",
+      "description": "Lab maintenance schedule handed over to assistant technician for two days.",
+      "fromDate": "2026-11-24",
+      "toDate": "2026-11-25",
+      "status": "SUBMITTED",
+      "assignedApproverRole": "HOD",
+      "createdAt": "2026-11-12T17:05:00Z",
+      "updatedAt": "2026-11-12T17:05:00Z",
+      "history": [
+        {
+          "timestamp": "2026-11-12T17:05:00Z",
+          "actorName": "Mr. Senthil Kumar M",
+          "action": "SUBMITTED",
+          "comment": "Requested 2 days Casual Leave."
+        }
+      ]
+    },
+    {
+      "id": "req-ece-01",
+      "requestNumber": "REQ-2026-0204",
+      "departmentId": "dept-ece",
+      "type": "STAFF_LEAVE",
+      "requesterUserId": "usr-ece-fac-02",
+      "requesterName": "Prof. Priya Narayanan",
+      "requesterRole": "FACULTY",
+      "staffId": "staff-ece-02",
+      "leaveCategory": "CL",
+      "daysCount": 2,
+      "title": "Casual Leave — Personal Travel",
+      "description": "Signals & Systems class rescheduled to Friday Period 4.",
+      "fromDate": "2026-11-19",
+      "toDate": "2026-11-20",
+      "status": "SUBMITTED",
+      "assignedApproverRole": "HOD",
+      "createdAt": "2026-11-12T12:40:00Z",
+      "updatedAt": "2026-11-12T12:40:00Z",
+      "history": [
+        {
+          "timestamp": "2026-11-12T12:40:00Z",
+          "actorName": "Prof. Priya Narayanan",
+          "action": "SUBMITTED",
+          "comment": "Requested 2 days Casual Leave."
+        }
+      ]
+    }
+  ],
+  "assignments": [
+    {
+      "id": "asg-01",
+      "departmentId": "dept-cse",
+      "subjectId": "sub-cs3502",
+      "sectionId": "sec-5a",
+      "facultyStaffId": "staff-02",
+      "title": "Gradient Boosting & Hyperparameter Tuning Benchmark",
+      "instructions": "Compare XGBoost vs LightGBM on the UCI Credit Risk dataset and submit a 4-page technical report with ROC curves.",
+      "maxMarks": 25,
+      "dueDate": "2026-11-18",
+      "attachmentName": "CS3502_Assignment_3_Spec.pdf",
+      "createdAt": "2026-11-03T10:00:00Z",
+      "submissions": [
+        {
+          "id": "subm-01",
+          "studentId": "stu-02",
+          "submittedAt": "2026-11-11T19:40:00Z",
+          "fileName": "24CSE102_Harini_GBDT_Benchmark.pdf",
+          "notes": "Includes 5-fold stratified cross validation.",
+          "marks": 24,
+          "feedback": "Exceptional ablation analysis and clear plots.",
+          "status": "GRADED"
+        },
+        {
+          "id": "subm-02",
+          "studentId": "stu-04",
+          "submittedAt": "2026-11-12T14:15:00Z",
+          "fileName": "24CSE104_Niharika_ML_Report.pdf",
+          "notes": "Submitted with Colab link appendix.",
+          "status": "SUBMITTED"
+        }
+      ]
+    },
+    {
+      "id": "asg-02",
+      "departmentId": "dept-cse",
+      "subjectId": "sub-cs3501",
+      "sectionId": "sec-5a",
+      "facultyStaffId": "staff-01",
+      "title": "Raft Consensus Log Replication Simulator",
+      "instructions": "Implement leader election and split-vote recovery in Go or TypeScript with unit tests.",
+      "maxMarks": 30,
+      "dueDate": "2026-11-22",
+      "attachmentName": "Raft_Lab_Prompt.pdf",
+      "createdAt": "2026-11-06T09:30:00Z",
+      "submissions": [
+        {
+          "id": "subm-03",
+          "studentId": "stu-01",
+          "submittedAt": "2026-11-12T20:10:00Z",
+          "fileName": "24CSE101_Raft_Consensus_TS.zip",
+          "notes": "Includes deterministic network partition simulator.",
+          "status": "SUBMITTED"
+        }
+      ]
+    }
+  ],
+  "learningMaterials": [
+    {
+      "id": "mat-01",
+      "departmentId": "dept-cse",
+      "subjectId": "sub-cs3502",
+      "title": "Unit III: Support Vector Machines & Mercer Kernels",
+      "unitNumber": 3,
+      "resourceType": "PPTX",
+      "uploadedByName": "Prof. Karthik Ramanathan",
+      "uploadedAt": "2026-10-18",
+      "referenceUrl": "#material-cs3502-u3"
+    },
+    {
+      "id": "mat-02",
+      "departmentId": "dept-cse",
+      "subjectId": "sub-cs3501",
+      "title": "Raft Paper Annotated Lecture Notes",
+      "unitNumber": 2,
+      "resourceType": "PDF",
+      "uploadedByName": "Dr. Meenakshi Sundaram",
+      "uploadedAt": "2026-10-12",
+      "referenceUrl": "#material-cs3501-u2"
+    },
+    {
+      "id": "mat-03",
+      "departmentId": "dept-cse",
+      "subjectId": "sub-cs3511",
+      "title": "Kubernetes & Docker Compose Lab Manual (2026 Ed.)",
+      "unitNumber": 2,
+      "resourceType": "LAB_MANUAL",
+      "uploadedByName": "Prof. Karthik Ramanathan",
+      "uploadedAt": "2026-11-01",
+      "referenceUrl": "#material-cs3511-lab"
+    }
+  ],
+  "assessments": [
+    {
+      "id": "asm-cia1-ml",
+      "departmentId": "dept-cse",
+      "academicYearId": "ay-2026-27",
+      "subjectId": "sub-cs3502",
+      "sectionId": "sec-5a",
+      "title": "CIA-1: Machine Learning Foundations",
+      "componentType": "CIA_1",
+      "maxMarks": 50,
+      "passMarks": 25,
+      "examDate": "2026-09-14",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-09-20T16:00:00Z",
+      "publishedBy": "Dr. Meenakshi Sundaram",
+      "marks": [
+        {
+          "studentId": "stu-01",
+          "scoredMarks": 45
+        },
+        {
+          "studentId": "stu-02",
+          "scoredMarks": 48
+        },
+        {
+          "studentId": "stu-03",
+          "scoredMarks": 31
+        },
+        {
+          "studentId": "stu-04",
+          "scoredMarks": 43
+        },
+        {
+          "studentId": "stu-05",
+          "scoredMarks": 22
+        },
+        {
+          "studentId": "stu-06",
+          "scoredMarks": 40
+        }
+      ]
+    },
+    {
+      "id": "asm-cia1-ds",
+      "departmentId": "dept-cse",
+      "academicYearId": "ay-2026-27",
+      "subjectId": "sub-cs3501",
+      "sectionId": "sec-5a",
+      "title": "CIA-1: Distributed Systems & Cloud",
+      "componentType": "CIA_1",
+      "maxMarks": 50,
+      "passMarks": 25,
+      "examDate": "2026-09-16",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-09-21T11:30:00Z",
+      "publishedBy": "Dr. Meenakshi Sundaram",
+      "marks": [
+        {
+          "studentId": "stu-01",
+          "scoredMarks": 44
+        },
+        {
+          "studentId": "stu-02",
+          "scoredMarks": 46
+        },
+        {
+          "studentId": "stu-03",
+          "scoredMarks": 34
+        },
+        {
+          "studentId": "stu-04",
+          "scoredMarks": 41
+        },
+        {
+          "studentId": "stu-05",
+          "scoredMarks": 27
+        },
+        {
+          "studentId": "stu-06",
+          "scoredMarks": 39
+        }
+      ]
+    },
+    {
+      "id": "asm-cia1-cn",
+      "departmentId": "dept-cse",
+      "academicYearId": "ay-2026-27",
+      "subjectId": "sub-cs3503",
+      "sectionId": "sec-5a",
+      "title": "CIA-1: Computer Networks & Security",
+      "componentType": "CIA_1",
+      "maxMarks": 50,
+      "passMarks": 25,
+      "examDate": "2026-09-18",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-09-22T14:00:00Z",
+      "publishedBy": "Dr. Meenakshi Sundaram",
+      "marks": [
+        {
+          "studentId": "stu-01",
+          "scoredMarks": 41
+        },
+        {
+          "studentId": "stu-02",
+          "scoredMarks": 47
+        },
+        {
+          "studentId": "stu-03",
+          "scoredMarks": 29
+        },
+        {
+          "studentId": "stu-04",
+          "scoredMarks": 44
+        },
+        {
+          "studentId": "stu-05",
+          "scoredMarks": 21
+        },
+        {
+          "studentId": "stu-06",
+          "scoredMarks": 38
+        }
+      ]
+    },
+    {
+      "id": "asm-cia2-ml",
+      "departmentId": "dept-cse",
+      "academicYearId": "ay-2026-27",
+      "subjectId": "sub-cs3502",
+      "sectionId": "sec-5a",
+      "title": "CIA-2: Machine Learning Foundations",
+      "componentType": "CIA_2",
+      "maxMarks": 50,
+      "passMarks": 25,
+      "examDate": "2026-10-29",
+      "status": "SUBMITTED",
+      "marks": [
+        {
+          "studentId": "stu-01",
+          "scoredMarks": 47,
+          "remarks": "Strong kernel derivations"
+        },
+        {
+          "studentId": "stu-02",
+          "scoredMarks": 49,
+          "remarks": "Top scorer"
+        },
+        {
+          "studentId": "stu-03",
+          "scoredMarks": 33
+        },
+        {
+          "studentId": "stu-04",
+          "scoredMarks": 42
+        },
+        {
+          "studentId": "stu-05",
+          "scoredMarks": 26
+        },
+        {
+          "studentId": "stu-06",
+          "scoredMarks": 41
+        }
+      ]
+    },
+    {
+      "id": "asm-cia2-cn",
+      "departmentId": "dept-cse",
+      "academicYearId": "ay-2026-27",
+      "subjectId": "sub-cs3503",
+      "sectionId": "sec-5a",
+      "title": "CIA-2: Computer Networks & Security",
+      "componentType": "CIA_2",
+      "maxMarks": 50,
+      "passMarks": 25,
+      "examDate": "2026-10-31",
+      "status": "DRAFT",
+      "marks": [
+        {
+          "studentId": "stu-01",
+          "scoredMarks": 43
+        },
+        {
+          "studentId": "stu-02",
+          "scoredMarks": 45
+        },
+        {
+          "studentId": "stu-03",
+          "scoredMarks": 32
+        },
+        {
+          "studentId": "stu-04",
+          "scoredMarks": 40
+        },
+        {
+          "studentId": "stu-05",
+          "scoredMarks": 24
+        },
+        {
+          "studentId": "stu-06",
+          "scoredMarks": 37
+        }
+      ]
+    },
+    {
+      "id": "asm-ece-cia1",
+      "departmentId": "dept-ece",
+      "academicYearId": "ay-2026-27",
+      "subjectId": "sub-ec3501",
+      "sectionId": "sec-ece-5a",
+      "title": "CIA-1: VLSI Design & CMOS Systems",
+      "componentType": "CIA_1",
+      "maxMarks": 50,
+      "passMarks": 25,
+      "examDate": "2026-09-16",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-09-21T15:00:00Z",
+      "publishedBy": "Dr. Aravind Swaminathan",
+      "marks": [
+        {
+          "studentId": "stu-ece-01",
+          "scoredMarks": 46
+        },
+        {
+          "studentId": "stu-ece-02",
+          "scoredMarks": 31
+        }
+      ]
+    }
+  ],
+  "feeLedgers": [
+    {
+      "id": "fee-01",
+      "departmentId": "dept-cse",
+      "studentId": "stu-01",
+      "academicYearId": "ay-2026-27",
+      "feeHead": "Semester V Tuition & Laboratory Fee",
+      "totalAmount": 68500,
+      "concessionAmount": 0,
+      "paidAmount": 45000,
+      "dueDate": "2026-11-30",
+      "status": "PARTIAL",
+      "payments": [
+        {
+          "id": "pay-01",
+          "receiptNumber": "VIT-RCPT-2026-4102",
+          "transactionRef": "TXN998124501",
+          "amount": 45000,
+          "mode": "NET_BANKING",
+          "paidAt": "2026-07-18T11:22:00Z"
+        }
+      ]
+    },
+    {
+      "id": "fee-02",
+      "departmentId": "dept-cse",
+      "studentId": "stu-02",
+      "academicYearId": "ay-2026-27",
+      "feeHead": "Semester V Tuition & Laboratory Fee",
+      "totalAmount": 68500,
+      "concessionAmount": 25000,
+      "paidAmount": 43500,
+      "dueDate": "2026-11-30",
+      "status": "PAID",
+      "payments": [
+        {
+          "id": "pay-02",
+          "receiptNumber": "VIT-RCPT-2026-4119",
+          "transactionRef": "TXN998124689",
+          "amount": 43500,
+          "mode": "UPI",
+          "paidAt": "2026-07-20T09:40:00Z"
+        }
+      ]
+    },
+    {
+      "id": "fee-03",
+      "departmentId": "dept-cse",
+      "studentId": "stu-03",
+      "academicYearId": "ay-2026-27",
+      "feeHead": "Semester V Tuition & Laboratory Fee",
+      "totalAmount": 68500,
+      "concessionAmount": 0,
+      "paidAmount": 68500,
+      "dueDate": "2026-11-30",
+      "status": "PAID",
+      "payments": [
+        {
+          "id": "pay-03",
+          "receiptNumber": "VIT-RCPT-2026-4150",
+          "transactionRef": "TXN998125100",
+          "amount": 68500,
+          "mode": "NET_BANKING",
+          "paidAt": "2026-07-22T15:10:00Z"
+        }
+      ]
+    },
+    {
+      "id": "fee-04",
+      "departmentId": "dept-cse",
+      "studentId": "stu-05",
+      "academicYearId": "ay-2026-27",
+      "feeHead": "Semester V Tuition & Laboratory Fee",
+      "totalAmount": 68500,
+      "concessionAmount": 0,
+      "paidAmount": 20000,
+      "dueDate": "2026-11-10",
+      "status": "OVERDUE",
+      "payments": [
+        {
+          "id": "pay-04",
+          "receiptNumber": "VIT-RCPT-2026-4199",
+          "transactionRef": "TXN998126002",
+          "amount": 20000,
+          "mode": "CHALLAN",
+          "paidAt": "2026-08-02T13:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "fee-ece-01",
+      "departmentId": "dept-ece",
+      "studentId": "stu-ece-01",
+      "academicYearId": "ay-2026-27",
+      "feeHead": "ECE Semester V Tuition & VLSI Lab Fee",
+      "totalAmount": 68500,
+      "concessionAmount": 0,
+      "paidAmount": 68500,
+      "dueDate": "2026-11-30",
+      "status": "PAID",
+      "payments": [
+        {
+          "id": "pay-ece-01",
+          "receiptNumber": "VIT-RCPT-2026-4310",
+          "transactionRef": "TXN998210101",
+          "amount": 68500,
+          "mode": "UPI",
+          "paidAt": "2026-07-19T10:15:00Z"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "prj-01",
+      "departmentId": "dept-cse",
+      "title": "Federated Anomaly Detection for Smart Grid Microcontrollers",
+      "category": "CAPSTONE",
+      "technologyStack": "PyTorch, Flower FL, MQTT, Rust",
+      "guideStaffId": "staff-02",
+      "studentIds": [
+        "stu-01",
+        "stu-02",
+        "stu-04"
+      ],
+      "milestoneProgressPct": 78,
+      "latestReviewMarks": 44,
+      "status": "IN_PROGRESS"
+    },
+    {
+      "id": "prj-02",
+      "departmentId": "dept-cse",
+      "title": "Zero-Trust Campus Service Mesh & Identity Proxy",
+      "category": "CAPSTONE",
+      "technologyStack": "Go, Envoy, SPIFFE, PostgreSQL",
+      "guideStaffId": "staff-03",
+      "studentIds": [
+        "stu-07",
+        "stu-10"
+      ],
+      "milestoneProgressPct": 65,
+      "latestReviewMarks": 41,
+      "status": "REVIEW_DUE"
+    },
+    {
+      "id": "prj-03",
+      "departmentId": "dept-cse",
+      "title": "LLVM Auto-Vectorization Benchmark Suite for RISC-V",
+      "category": "FUNDED",
+      "technologyStack": "C++, LLVM 19, Python",
+      "guideStaffId": "staff-05",
+      "studentIds": [
+        "stu-13",
+        "stu-14"
+      ],
+      "milestoneProgressPct": 92,
+      "latestReviewMarks": 48,
+      "status": "COMPLETED"
+    }
+  ],
+  "internships": [
+    {
+      "id": "int-01",
+      "departmentId": "dept-cse",
+      "studentId": "stu-01",
+      "companyName": "Zoho Corporation",
+      "roleTitle": "Software Engineering Intern (Systems)",
+      "mode": "ONSITE",
+      "startDate": "2026-12-07",
+      "endDate": "2027-01-16",
+      "stipendInr": 25000,
+      "status": "APPROVED"
+    },
+    {
+      "id": "int-02",
+      "departmentId": "dept-cse",
+      "studentId": "stu-13",
+      "companyName": "Bosch Global Software Technologies",
+      "roleTitle": "Embedded AI & Compiler Intern",
+      "mode": "HYBRID",
+      "startDate": "2026-06-01",
+      "endDate": "2026-08-30",
+      "stipendInr": 30000,
+      "status": "COMPLETED"
+    },
+    {
+      "id": "int-03",
+      "departmentId": "dept-cse",
+      "studentId": "stu-02",
+      "companyName": "IIT Madras Robert Bosch Centre",
+      "roleTitle": "Summer/Winter ML Research Fellow",
+      "mode": "ONSITE",
+      "startDate": "2026-12-07",
+      "endDate": "2027-01-04",
+      "stipendInr": 18000,
+      "status": "PENDING_APPROVAL"
+    }
+  ],
+  "jobOpenings": [
+    {
+      "id": "job-01",
+      "departmentId": "dept-cse",
+      "companyName": "Freshworks",
+      "roleTitle": "Software Engineer — Platform Core",
+      "packageLpa": 12.5,
+      "minCgpa": 7.5,
+      "driveDate": "2026-11-26",
+      "location": "Chennai",
+      "applicantStudentIds": [
+        "stu-13",
+        "stu-14",
+        "stu-01",
+        "stu-02"
+      ],
+      "selectedStudentIds": [
+        "stu-13"
+      ],
+      "status": "OPEN"
+    },
+    {
+      "id": "job-02",
+      "departmentId": "dept-cse",
+      "companyName": "Caterpillar India Tech",
+      "roleTitle": "Cloud Data Engineer",
+      "packageLpa": 9.8,
+      "minCgpa": 7,
+      "driveDate": "2026-12-04",
+      "location": "Bengaluru / Chennai",
+      "applicantStudentIds": [
+        "stu-14",
+        "stu-07"
+      ],
+      "selectedStudentIds": [],
+      "status": "OPEN"
+    },
+    {
+      "id": "job-03",
+      "departmentId": "dept-cse",
+      "companyName": "Zoho Corporation",
+      "roleTitle": "Member Technical Staff",
+      "packageLpa": 8.4,
+      "minCgpa": 6.5,
+      "driveDate": "2026-10-18",
+      "location": "Coimbatore / Chennai",
+      "applicantStudentIds": [
+        "stu-13",
+        "stu-14"
+      ],
+      "selectedStudentIds": [
+        "stu-13",
+        "stu-14"
+      ],
+      "status": "CLOSED"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-01",
+      "departmentId": "dept-cse",
+      "title": "Two-Day Hands-on Workshop on Kubernetes & Cloud Native Observability",
+      "category": "WORKSHOP",
+      "coordinatorStaffId": "staff-01",
+      "resourcePerson": "Arvind Subramanian (Principal SRE, Thoughtworks)",
+      "eventDate": "2026-11-21",
+      "venue": "CSE Seminar Hall & Cloud Lab 2",
+      "budgetInr": 24000,
+      "status": "APPROVED",
+      "registeredUserIds": [
+        "usr-student-01",
+        "usr-faculty-02"
+      ]
+    },
+    {
+      "id": "evt-02",
+      "departmentId": "dept-cse",
+      "title": "Faculty Development Programme: Outcome-Based Assessment & Rubrics",
+      "category": "FDP",
+      "coordinatorStaffId": "staff-03",
+      "resourcePerson": "Dr. Kavitha Narayanan (NIT Tiruchirappalli)",
+      "eventDate": "2026-11-28",
+      "venue": "Main Auditorium Annex",
+      "budgetInr": 18500,
+      "status": "PROPOSED",
+      "registeredUserIds": [
+        "usr-faculty-03"
+      ]
+    },
+    {
+      "id": "evt-03",
+      "departmentId": "dept-cse",
+      "title": "Vanguard Intra-Dept 24-Hour Systems Hackathon",
+      "category": "HACKATHON",
+      "coordinatorStaffId": "staff-02",
+      "resourcePerson": "Alumni Engineering Panel",
+      "eventDate": "2026-10-10",
+      "venue": "Innovation Centre Block B",
+      "budgetInr": 45000,
+      "status": "COMPLETED",
+      "registeredUserIds": [
+        "usr-student-01"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "pub-01",
+      "departmentId": "dept-cse",
+      "title": "Byzantine-Resilient Raft Consensus for Edge Telemetry Clusters",
+      "authors": "Meenakshi Sundaram, Karthik Ramanathan",
+      "staffId": "staff-01",
+      "journalOrConference": "IEEE Transactions on Parallel and Distributed Systems",
+      "indexing": "SCI",
+      "year": 2026,
+      "doi": "10.1109/TPDS.2026.3410921",
+      "verified": true
+    },
+    {
+      "id": "pub-02",
+      "departmentId": "dept-cse",
+      "title": "Zero-Trust Micro-Segmentation for Academic Campus Networks",
+      "authors": "Ananya Krishnan, Senthil Kumar M",
+      "staffId": "staff-03",
+      "journalOrConference": "Elsevier Computer Networks",
+      "indexing": "SCOPUS",
+      "year": 2026,
+      "doi": "10.1016/j.comnet.2026.110442",
+      "verified": true
+    }
+  ],
+  "accreditationEvidence": [
+    {
+      "id": "iqac-01",
+      "departmentId": "dept-cse",
+      "framework": "NBA",
+      "criterionCode": "Criterion 2",
+      "criterionTitle": "Program Curriculum & Teaching-Learning Processes",
+      "academicYearLabel": "2026-27",
+      "ownerStaffId": "staff-03",
+      "documentTitle": "CO-PO Attainment & Lesson Plan Audit Bundle (Odd Sem 2026)",
+      "completionPct": 88,
+      "status": "VERIFIED",
+      "reviewerNotes": "Verified against CIA-1 attainment sheets.",
+      "updatedAt": "2026-11-08"
+    },
+    {
+      "id": "iqac-02",
+      "departmentId": "dept-cse",
+      "framework": "NAAC",
+      "criterionCode": "Criterion 3.3",
+      "criterionTitle": "Research Publications & Faculty Grants",
+      "academicYearLabel": "2026-27",
+      "ownerStaffId": "staff-01",
+      "documentTitle": "SCOPUS / SCI Indexing Proofs & DOI Registry 2026",
+      "completionPct": 76,
+      "status": "SUBMITTED",
+      "updatedAt": "2026-11-11"
+    },
+    {
+      "id": "iqac-03",
+      "departmentId": "dept-cse",
+      "framework": "NBA",
+      "criterionCode": "Criterion 6",
+      "criterionTitle": "Facilities & Technical Support (Laboratories)",
+      "academicYearLabel": "2026-27",
+      "ownerStaffId": "staff-06",
+      "documentTitle": "Lab Asset Calibration, AMC & Software License Ledger",
+      "completionPct": 64,
+      "status": "NEEDS_REVISION",
+      "reviewerNotes": "Attach updated NVIDIA CUDA workstation license invoice.",
+      "updatedAt": "2026-11-10"
+    }
+  ],
+  "labAssets": [
+    {
+      "id": "lab-01",
+      "departmentId": "dept-cse",
+      "labName": "AI & Deep Learning Compute Lab",
+      "roomCode": "AI-LAB-1",
+      "inChargeStaffId": "staff-06",
+      "assetCode": "VIT-CSE-GPU-01..30",
+      "equipmentName": "Workstation Nodes (RTX 4080 16GB / 64GB RAM)",
+      "quantity": 30,
+      "warrantyUntil": "2028-06-30",
+      "condition": "OPERATIONAL",
+      "maintenanceTicketStatus": "NONE"
+    },
+    {
+      "id": "lab-02",
+      "departmentId": "dept-cse",
+      "labName": "Networks & Cybersecurity Lab",
+      "roomCode": "NET-LAB-2",
+      "inChargeStaffId": "staff-06",
+      "assetCode": "VIT-CSE-NET-14",
+      "equipmentName": "Cisco Catalyst 9300 Managed L3 Switch Rack",
+      "quantity": 4,
+      "warrantyUntil": "2027-03-15",
+      "condition": "MAINTENANCE_DUE",
+      "maintenanceTicketStatus": "OPEN"
+    },
+    {
+      "id": "lab-03",
+      "departmentId": "dept-cse",
+      "labName": "Systems & Cloud Engineering Lab",
+      "roomCode": "CLD-LAB-3",
+      "inChargeStaffId": "staff-06",
+      "assetCode": "VIT-CSE-SRV-01..06",
+      "equipmentName": "Dell PowerEdge R750 Virtualization Cluster",
+      "quantity": 6,
+      "warrantyUntil": "2029-01-20",
+      "condition": "OPERATIONAL",
+      "maintenanceTicketStatus": "NONE"
+    },
+    {
+      "id": "lab-ece-01",
+      "departmentId": "dept-ece",
+      "labName": "VLSI & Embedded Systems Design Lab",
+      "roomCode": "EC-LAB-1",
+      "inChargeStaffId": "staff-ece-03",
+      "assetCode": "VIT-ECE-FPGA-01..24",
+      "equipmentName": "Xilinx Artix-7 FPGA Kits & Cadence License Server",
+      "quantity": 24,
+      "warrantyUntil": "2028-08-15",
+      "condition": "OPERATIONAL",
+      "maintenanceTicketStatus": "NONE"
+    }
+  ],
+  "mentorMeetings": [
+    {
+      "id": "ment-01",
+      "departmentId": "dept-cse",
+      "mentorStaffId": "staff-02",
+      "studentId": "stu-01",
+      "meetingDate": "2026-11-04",
+      "summary": "Reviewed CIA-1 scores (90% avg) and Zoho winter internship preparation.",
+      "actionItem": "Complete Distributed Systems Raft simulator before Nov 20.",
+      "followUpStatus": "OPEN"
+    },
+    {
+      "id": "ment-02",
+      "departmentId": "dept-cse",
+      "mentorStaffId": "staff-02",
+      "studentId": "stu-05",
+      "meetingDate": "2026-11-06",
+      "summary": "Addressed attendance shortage (below 75%) and CIA-1 backlog in ML & Networks.",
+      "actionItem": "Attend remedial tutorial sessions Tue/Thu 4 PM; guardian notified.",
+      "followUpStatus": "OPEN"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann-01",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-cse",
+      "title": "CIA-2 Verification Window & End-Semester Exam Registration",
+      "body": "Faculty are requested to submit CIA-2 marks by 16 Nov 2026 for HOD verification. Students must ensure >=75% attendance compliance or submit valid OD documentation.",
+      "category": "EXAMINATION",
+      "targetAudience": "ALL",
+      "authorName": "Dr. Meenakshi Sundaram",
+      "authorRole": "HOD — CSE",
+      "createdAt": "2026-11-12T09:00:00Z",
+      "pinned": true
+    },
+    {
+      "id": "ann-02",
+      "institutionId": "inst-vit-01",
+      "departmentId": "dept-cse",
+      "title": "Freshworks On-Campus Placement Drive — 26 Nov 2026",
+      "body": "Eligible final-year and pre-final-year internship candidates (>= 7.5 CGPA) may submit applications through the Placement & Career workspace before 22 Nov.",
+      "category": "PLACEMENT",
+      "targetAudience": "STUDENTS",
+      "authorName": "Prof. Divya Bharathi",
+      "authorRole": "Placement Coordinator",
+      "createdAt": "2026-11-11T14:30:00Z"
+    },
+    {
+      "id": "ann-03",
+      "institutionId": "inst-vit-01",
+      "departmentId": "ALL",
+      "title": "Academic Calendar Update: NBA Mock Audit Review on 20 Nov",
+      "body": "All department IQAC coordinators and lab in-charges must keep evidence files and calibration logs updated in the Accreditation module.",
+      "category": "ACADEMIC",
+      "targetAudience": "FACULTY",
+      "authorName": "Dr. R. Subramanian",
+      "authorRole": "Principal",
+      "createdAt": "2026-11-10T11:15:00Z"
+    }
+  ],
+  "academicCalendar": [
+    {
+      "id": "cal-01",
+      "institutionId": "inst-vit-01",
+      "academicYearId": "ay-2026-27",
+      "date": "2026-07-15",
+      "title": "Odd Semester Classes Commence",
+      "type": "TERM_START"
+    },
+    {
+      "id": "cal-02",
+      "institutionId": "inst-vit-01",
+      "academicYearId": "ay-2026-27",
+      "date": "2026-09-14",
+      "title": "CIA-1 Examination Week",
+      "type": "INTERNAL_EXAM"
+    },
+    {
+      "id": "cal-03",
+      "institutionId": "inst-vit-01",
+      "academicYearId": "ay-2026-27",
+      "date": "2026-10-29",
+      "title": "CIA-2 Examination Week",
+      "type": "INTERNAL_EXAM"
+    },
+    {
+      "id": "cal-04",
+      "institutionId": "inst-vit-01",
+      "academicYearId": "ay-2026-27",
+      "date": "2026-11-21",
+      "title": "Kubernetes & Cloud Native Workshop",
+      "type": "EVENT"
+    },
+    {
+      "id": "cal-05",
+      "institutionId": "inst-vit-01",
+      "academicYearId": "ay-2026-27",
+      "date": "2026-12-08",
+      "title": "End-Semester Theory Examinations Begin",
+      "type": "UNIVERSITY_EXAM"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "aud-01",
+      "timestamp": "2026-11-12T08:15:00Z",
+      "actorUserId": "usr-hod-01",
+      "actorName": "Dr. Meenakshi Sundaram",
+      "actorRoles": [
+        "HOD",
+        "FACULTY"
+      ],
+      "departmentId": "dept-cse",
+      "action": "TIMETABLE_PUBLISHED",
+      "module": "timetable",
+      "entityType": "Timetable",
+      "entityId": "sec-5a",
+      "summary": "Published Odd Semester 2026-27 timetable for CSE sections."
+    },
+    {
+      "id": "aud-02",
+      "timestamp": "2026-11-10T14:20:00Z",
+      "actorUserId": "usr-faculty-02",
+      "actorName": "Prof. Karthik Ramanathan",
+      "actorRoles": [
+        "FACULTY",
+        "CLASS_ADVISOR"
+      ],
+      "departmentId": "dept-cse",
+      "action": "ATTENDANCE_CORRECTION_SUBMITTED",
+      "module": "attendance",
+      "entityType": "AttendanceCorrectionRequest",
+      "entityId": "ac-01",
+      "summary": "Requested ABSENT -> ON_DUTY correction for 24CSE103 (CS3502, 09 Nov 2026)."
+    },
+    {
+      "id": "aud-03",
+      "timestamp": "2026-09-20T16:00:00Z",
+      "actorUserId": "usr-hod-01",
+      "actorName": "Dr. Meenakshi Sundaram",
+      "actorRoles": [
+        "HOD"
+      ],
+      "departmentId": "dept-cse",
+      "action": "RESULTS_PUBLISHED",
+      "module": "assessments",
+      "entityType": "Assessment",
+      "entityId": "asm-cia1-ml",
+      "summary": "Published CIA-1 marks for CS3502 Machine Learning Foundations (V Sem Sec A)."
+    }
+  ]
+}
