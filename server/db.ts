@@ -80,7 +80,9 @@ export interface ErpDatabase {
   auditLogs: AuditLog[];
 }
 
-const DATA_DIR = path.resolve(process.cwd(), 'data');
+const DATA_DIR = process.env.VERCEL
+  ? path.join('/tmp', 'vanguard-erp-data')
+  : path.resolve(process.cwd(), 'data');
 const DB_FILE = path.join(DATA_DIR, 'erp-store.json');
 
 function createInitialRoles(): RoleDefinition[] {
